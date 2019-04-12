@@ -1,0 +1,39 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu3 a.current{ background:url(../images/content3/leftmenu3_back.jpg)}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:143px; height:23px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content3/subtitle1_3.jpg) no-repeat}
+	#content .titleArea p{ width:231px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:50px;
+									background:url(../images/content3/subtitle1_3add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 44px}
+	#content .contentArea .con1 h3{ width:197px; height:21px; text-indent:-999px; overflow:hidden; background:url(../images/content3/address.jpg)}
+	#content .contentArea .con1 .maptable { margin:20px 0 40px}
+		#content .contentArea .con1 .maptable tbody{ border-top:1px solid #bbb}
+		#content .contentArea .con1 .maptable tbody th{ width:197px; height:50px; background:#eee; border-bottom:1px solid #bbb}
+		#content .contentArea .con1 .maptable tbody td{ width:503px; height:50px; padding-left:45px; border-bottom:1px solid #bbb}
+		#content .contentArea .con1 .maptable tbody span{ margin-left:25px}
+	#content .contentArea #map_canvas{ width:745px; height:345px; border:1px solid #ccc; margin-bottom:40px}
+	#content .contentArea .con2 h4{ width:123px; height:20px; text-indent:-999px; overflow:hidden; background:url(../images/content3/traffic.jpg)}
+	#content .contentArea .con2 ul{ margin:30px 0 30px 30px}
+	#content .contentArea .con2 .subway{ height:50px; background:url(../images/content3/subway.jpg) left center no-repeat}
+	#content .contentArea .con2 .bus{ height:47px; background:url(../images/content3/bus.jpg) left center no-repeat}
+	#content .contentArea .con2 li{ margin:0 0 10px 90px; background:url(../images/content3/bullet.jpg) left center no-repeat; padding-left:10px}
+	
+	
+	
+	
+	
+	
+
+
+				
+				
+				
+				
+				
+				
+				
+				
+				

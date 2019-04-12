@@ -1,0 +1,53 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu1 a.current{ background:url(../images/content1/leftmenu1_back.jpg)}
+#content .titleArea{}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:90px; height:24px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content1/subtitle3_1.jpg) no-repeat}
+	#content .titleArea p{ width:430px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content1/subtitle3_1add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 29px; position:relative}
+	#content .contentArea .news{ overflow:hidden; width:760px; position:relative; color:#666; margin-bottom:20px}
+		#content .contentArea .news table{ width:760px; line-height:2em; border-top:1px solid #ccc}
+			  .contentArea .news table thead th{ border-right:1px solid #ccc}
+			  .contentArea .news table thead th.last{ border-right:0}
+			  .contentArea .news table thead tr{ border-bottom:1px solid #ccc}
+			  .contentArea .news table tr{ border-bottom:1px dotted #ccc}
+			  .contentArea .news table tr.no_line{ border-bottom:0}
+			  
+			  .contentArea .news .search_opt{ position:absolute; bottom:6px; right:190px}
+			  .contentArea .news .search{ width:180px; height:20px; overflow:hidden; position:absolute; bottom:5px; right:0}
+				  .contentArea .news .search #search{ float:left; width:147px; height:12px; padding:3px; border:1px solid #ccc}
+				  .contentArea .news .search #search_submit{ float:right; width:25px; height:20px; text-indent:-999px; overflow:hidden;
+																			  background:url(../images/content1/search.jpg); cursor:pointer; border:0}
+																			  
+			  .contentArea .news table .form_tr{ text-align:left; padding-top:20px}
+			  .contentArea .news table .form_tr a{ margin-right:15px; color:#999}
+			  .contentArea .news table th, table tr, table td{ padding:10px}
+			  .contentArea .news table tr{ text-align:center; vertical-align:inherit; display:table-row} 
+			  .contentArea .news table th, table td{ display:table-cell; vertical-align:inherit; text-align:center}
+				  .contentArea .news table .img img{ width:150px; height:100px}
+				  .contentArea .news table .content{ width:280px; padding-left:5px}
+				  .contentArea .news table .content h3{ font-weight:bold; text-align:left; margin-bottom:5px; line-height:1.4em}
+	#content .contentArea .page{ text-align:center}			
+		#content .contentArea .page span{ border:1px solid #ccc; text-align:center; padding:4px 8px; color:#666}
+			#content .contentArea .page span.on{ background:#f9c035}
+
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+
+
+
+
+

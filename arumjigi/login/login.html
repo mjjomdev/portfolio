@@ -1,0 +1,24 @@
+<? $_zb_url = 'http://jomji.cafe24.com/bbs/'; 
+$_zb_path = '/home/hosting_users/jomji/www/bbs/'; 
+include $_zb_path.'outlogin.php'; ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Member Login</title>
+<style type="text/css"> 
+	*{margin:0; padding:0}
+	#wrap{width:300px; height:258px; background:url(back.jpg) left top no-repeat; overflow:hidden; position:relative}
+	#login{ position:absolute; top:90px; left:50px;}
+</style>
+</head>
+<body>
+	<div id="wrap">
+    	<div id="login">
+          <!-- 이 위치에 제로보드 로그인 삽입 -->
+          <? print_outlogin('login1',1,10)?>
+        </div>
+    </div>
+</body>
+</html>

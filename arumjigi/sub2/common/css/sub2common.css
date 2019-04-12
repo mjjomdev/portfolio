@@ -1,0 +1,22 @@
+/* CSS Document */
+
+/* 각 대분류별 공통 css (레이아웃,leftNav,visual) */
+
+.container{ width:1000px; margin:0 auto; overflow:hidden}
+	.container .leftNav{ width:180px; float:left}
+		.container .leftNav h3 a{ display:block; width:180px; height:160px; text-indent:-999px; overflow:hidden; background:url(../images/1depth.jpg)}
+		.container .leftNav .leftMenu li a{ display:block; text-indent:-999px; overflow:hidden; height:50px}
+		.container .leftNav .leftMenu .menu1 a{ background:url(../images/leftmenu1.jpg)}
+		.container .leftNav .leftMenu .menu1 a:hover{ background:url(../images/leftmenu1_h.jpg)}
+		.container .leftNav .leftMenu .menu2 a{ background:url(../images/leftmenu2.jpg)}
+		.container .leftNav .leftMenu .menu2 a:hover{ background:url(../images/leftmenu2_h.jpg)}
+		.container .leftNav .leftMenu .menu3 a{ background:url(../images/leftmenu3.jpg)}
+		.container .leftNav .leftMenu .menu3 a:hover{ background:url(../images/leftmenu3_h.jpg)}
+		.container .leftNav .leftMenu .menu4 a{ background:url(../images/leftmenu4.jpg)}
+		.container .leftNav .leftMenu .menu4 a:hover{ background:url(../images/leftmenu4_h.jpg)}
+		.container .leftNav .leftMenu .menu5 a{ background:url(../images/leftmenu5.jpg)}
+		.container .leftNav .leftMenu .menu5 a:hover{ background:url(../images/leftmenu5_h.jpg)}
+		.container .leftNav .leftMenu .menu6 a{ background:url(../images/leftmenu6.jpg)}
+		.container .leftNav .leftMenu .menu6 a:hover{ background:url(../images/leftmenu6_h.jpg)}
+	.container #content .titleArea{ height:100px; position:relative; background:url(../images/subtitle_back.jpg); padding:60px 0 0 30px}
+	.container #content{ width:819px; float:right; border-left:1px solid #ccc}

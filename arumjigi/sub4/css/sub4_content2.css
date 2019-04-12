@@ -1,0 +1,52 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu2 a.current{ background:url(../images/content2/leftmenu2_back.jpg)}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:92px; height:22px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content2/subtitle4_2.jpg) no-repeat}
+	#content .titleArea p{ width:544px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content2/subtitle4_2add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 29px}
+	#content .contentArea .textArea{ margin-bottom:50px}
+		#content .contentArea .textArea p{ text-indent:-9999px; overflow:hidden; width:760px; height:173px;
+														background:url(../images/content2/text.jpg)}
+	#content .contentArea .spon_con{ position:relative; padding-top:200px}
+		#content .contentArea h3 a{ display:block; text-indent:-999px; overflow:hidden; width:360px; height:170px}
+		#content .contentArea h3 a.spon1{ background:url(../images/content2/spon1.jpg); position:absolute; left:0; top:0}
+		#content .contentArea h3 a.spon2{ background:url(../images/content2/spon2.jpg); position:absolute; right:0; top:0}
+		#content .contentArea .contlist{ display:none}
+		#content .contentArea .contlist table{ width:760px; margin:0 auto; line-height:2em}
+			#content .contentArea .contlist table tr{ text-align:center; vertical-align:inherit; display:table-row; padding:10px}
+				#content .contentArea .contlist table tr li{ text-align:center}
+			#content .contentArea .contlist table th{ padding:10px; font-size:13px}
+			#content .contentArea .contlist table td{ padding:20px}
+			#content .contentArea .contlist thead{ background:#f9c035}
+				#content .contentArea .contlist thead th{ border-right:1px solid #fff}
+			#content .contentArea .contlist tbody tr{ border-bottom:1px solid #ccc}
+			#content .contentArea .contlist table td, table th{ border-right:1px solid #ccc}
+			#content .contentArea .contlist table th.no_line{ border-right:none}
+			#content .contentArea .contlist table td.no_line{ border-right:none}
+			#content .contentArea .contlist table tr.no_line{ border-bottom:none}
+			#content .contentArea .contlist .spon_dir a{ display:block; text-indent:-999px; overflow:hidden;
+															width:44px; height:42px; margin:0 auto}
+			#content .contentArea .contlist .spon_dir1 a{ background:url(../images/content2/spon_dir1.png)}
+			#content .contentArea .contlist .spon_dir1 a:hover{ background:url(../images/content2/spon_dir1on.png)}
+			#content .contentArea .contlist .spon_dir2 a{ background:url(../images/content2/spon_dir2.png)}
+			#content .contentArea .contlist .spon_dir2 a:hover{ background:url(../images/content2/spon_dir2on.png)}
+		#content .contentArea .spon_notice{ margin:40px 0}
+			#content .contentArea .spon_notice h4{ text-indent:-999px; overflow:hidden; width:92px; height:17px;
+															background:url(../images/content2/spon_notice.jpg)}
+			#content .contentArea .spon_notice ul{ margin:10px}
+			#content .contentArea .spon_notice li{ padding-left:12px; line-height:2.5em;
+																background:url(../images/content2/bullet.jpg) left 14px no-repeat}
+	
+				
+				
+				
+				
+				
+				
+				
+				
+				

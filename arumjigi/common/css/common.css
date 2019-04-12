@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* base */
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,'굴림',Gulim,AppleGothic,sans-serif; font-size:12px; color:#333}
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%}
+ul,ol{list-style:none}
+fieldset,img{border:0; vertical-align:top;}
+address{font-style:normal}
+li,dd,p{text-align:justify; line-height:1.5em}
+.hidden{ position:absolute; top:0; left:-1000%; width:1px; height:1px; overflow:hidden}
+table{ border-collapse:collapse}
+
+/* a-style */
+a{color:inherit; text-decoration:none}
+a:hover,a:active,a:focus{color:#333;text-decoration:none}
+
+/* skipNav 공통영역 */
+#skipNav{position:relative;width:100%;overflow:hidden;}
+   #skipNav a{display:block; height:1px; margin-bottom:-1px; overflow:hidden; text-align:center;color:#333; font-size:12px}
+   #skipNav a:hover,#skipNav a:focus,#skipNav a:active{ display:block; height:auto; padding:5px 0; background: #f2f2f2}
+
+/* 헤더 공통영역 */
+#header{ border-bottom:2px solid #f9c035; background:url(../images/border.jpg) 0 0 repeat-x}
+#header .headerInner{ width:1000px; margin:0 auto}
+#header .headertop{ overflow:hidden;}
+	#header .topsns{ width:180px; height:30px; float:left}
+		#header .topsns ul{ overflow:hidden}
+		#header .topsns ul li{ float:left}
+		#header .topsns ul li a{ display:block; width:60px; height:30px; text-indent:-999px; overflow:hidden}
+		#header .topsns a.topsns_f{ background:url(../images/topsns_f.jpg)}
+		#header .topsns a.topsns_f:hover{ background:url(../images/topsns_fh.jpg)}
+		#header .topsns a.topsns_t{ background:url(../images/topsns_t.jpg)}
+		#header .topsns a.topsns_t:hover{ background:url(../images/topsns_th.jpg)}
+		#header .topsns a.topsns_y{ background:url(../images/topsns_y.jpg)}
+		#header .topsns a.topsns_y:hover{ background:url(../images/topsns_yh.jpg)}
+	#header .topmenu{ width:819px; height:29px; float:right; border-left:1px solid #ccc; border-bottom:1px solid #ccc}
+		#header .topmenu ul{ overflow:hidden; margin:6px 0 5px 590px}
+		#header .topmenu ul li{ float:left; margin-left:15px; font-size:11px; color:#999}
+
+#header .headerbot{ overflow:hidden}
+	#header .logo{ width:120px; float:left; margin:38px 30px}
+		#header .logo a{ display:block; width:120px; height:84px; text-indent:-999px; overflow:hidden; background:url("../images/logo.jpg")}
+	#header #nav{ width:820px; float:right; padding:88px 0 38px}
+		#header #nav ul.dropdownmenu{ float:left}
+					#nav ul.dropdownmenu li.menu{ position:relative; float:left}
+						#nav ul.dropdownmenu li.m1{ width:201px}
+						#nav ul.dropdownmenu li.m2{ width:153px}
+						#nav ul.dropdownmenu li.m3{ width:143px}
+						#nav ul.dropdownmenu li.m4{ width:112px}
+						#nav ul.dropdownmenu li.m5{ width:94px}
+						#nav ul.dropdownmenu li.m6{ width:117px}
+					#nav ul.dropdownmenu li h3{ position:relative; height:32px; overflow:hidden}
+					
+					#nav ul.dropdownmenu li a.depth1{position:absolute; text-indent:-999px; display:block; height:64px}
+					  #nav ul.dropdownmenu li.m1 a.depth1{ width:201px; background:url(../images/main_nav1.jpg) 0 0 no-repeat;}
+					  #nav ul.dropdownmenu li.m2 a.depth1{ width:153px; background:url(../images/main_nav2.jpg) 0 0 no-repeat;}
+					  #nav ul.dropdownmenu li.m3 a.depth1{ width:143px; background:url(../images/main_nav3.jpg) 0 0 no-repeat;}
+					  #nav ul.dropdownmenu li.m4 a.depth1{ width:112px; background:url(../images/main_nav4.jpg) 0 0 no-repeat;}
+					  #nav ul.dropdownmenu li.m5 a.depth1{ width:94px; background:url(../images/main_nav5.jpg) 0 0 no-repeat;}
+					  #nav ul.dropdownmenu li.m6 a.depth1{ width:117px; background:url(../images/main_nav6.jpg) 0 0 no-repeat;}
+							
+					#nav ul.dropdownmenu li ul{ height:155px; position:absolute; top:28px; left:0; padding:25px 0; display:none}
+					  #nav ul.dropdownmenu li.m1 ul{ width:201px}
+					  #nav ul.dropdownmenu li.m2 ul{ width:153px}
+					  #nav ul.dropdownmenu li.m3 ul{ width:143px}
+					  #nav ul.dropdownmenu li.m4 ul{ width:112px}
+					  #nav ul.dropdownmenu li.m5 ul{ width:94px}
+					  #nav ul.dropdownmenu li.m6 ul{ width:117px}
+					#nav ul.dropdownmenu li ul li{ text-align:center; font-weight:bold; line-height:2.2em}
+						#nav ul.dropdownmenu li ul li a{color:#999}
+						#nav ul.dropdownmenu li ul li a:hover{color:#666}
+
+/* 푸터 공통영역 */
+#footer{ height:270px; background:#666}
+	#footer .footerInner{ width:1000px; margin:0 auto}
+	#footer .footer_logo{ margin:40px 426px 30px}
+	#footer .footmenu{ overflow:hidden; margin-left:343px}
+		#footer .footmenu li{ float:left; padding:0 12px; background:url("../images/bar.jpg") right center no-repeat}
+		#footer .footmenu li a{ font-size:11px; color:#fff}
+		#footer .footmenu .last{ background:none}
+	#footer .info{ font-size:11px; color:#ccc; margin:15px auto}
+		#footer .info li{ text-align:center}
+		#footer .info li .add_title{ color:#fff}
+	#footer .copy{ width:1000px; font-size:11px; color:#ccc; margin-top:15px; text-align:center}
+		#footer .copy .name{ color:#f9c035}
+
+/* 상단이동버튼 공통영역 */	
+.topbtn #toTop{display:block; width:50px; height:50px;
+      			position:fixed; bottom:270px; left:50%; margin-left:500px; overflow:hidden}

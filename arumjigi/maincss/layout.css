@@ -1,0 +1,156 @@
+/* CSS Document */
+
+
+/* 컨텐츠 공통 영역 */
+#content{ background:#eee; width:1000px; height:900px; margin:0 auto}
+#content h3 a{ display:block; height:13px; text-indent:-999px; overflow:hidden; margin-bottom:15px}
+#content .more1{ position:absolute; top:0; right:0; width:15px; height:15px;
+						text-indent:-999px; overflow:hidden; background:url(../images/more_1.jpg) no-repeat}
+#content .more2{ position:absolute; top:0; right:0; width:15px; height:15px;
+						text-indent:-999px; overflow:hidden; background:url(../images/more_2.jpg) no-repeat}
+#content dd span{ display:block; font-size:11px; color:#999}
+#content .btn a{ display:block; width:15px; height:14px; text-indent:-999px; overflow:hidden}
+#content .btn a.leftbtn{ background:url(../images/btn_left.jpg); position:absolute; left:0; top:113px}
+#content .btn a.rightbtn{ background:url(../images/btn_right.jpg); position:absolute; right:0; top:113px}
+#content li a:hover, dt a:hover{ color:#f9c035}
+#content dd a:hover{ color:inherit; text-decoration:underline}
+
+/* main 영역 */
+.main{ width:1000px; height:500px; margin:0 auto; position:relative; overflow:hidden}
+	.main .gallery{ position:relative; left:0; top:0}
+		.main .gallery li{ position:relative}
+		.main .gallery p{ position:absolute; right:0; top:0; width:450px; height:500px; text-indent:-999px; overflow:hidden}
+		.main .gallery .text_pic1{ background: url(../images/text1.png)}
+		.main .gallery .text_pic2{ background: url(../images/text2.png)}
+		.main .gallery .text_pic3{ background: url(../images/text3.png)}
+		.main .gallery .text_pic4{ background: url(../images/text4.png)}
+		.main .gallery .text_pic5{ background: url(../images/text5.png)}
+		.main .gallery .text_pic6{ background: url(../images/text6.png)}
+	.main .btnArea{ position:absolute; left:287px; top:475px}
+		.main .btnArea span{ float:left; width:50px; height:5px; background:url(../images/btn.png);
+									margin-right:25px; display:block; cursor:pointer}
+	
+
+/* contop 영역 */
+#content .contop{ overflow:hidden}
+	#content .intro{ float:left; width:230px; height:240px; padding:20px 0 0 10px}
+		  #content .intro a.more{ display:block; width:230px; height:240px; text-indent:-999px; overflow:hidden; 
+									background: url(../images/intro.jpg) 0 0 no-repeat}				
+	#content .activity{ float:right; width:690px; height:210px; margin:20px 10px 0 20px; padding:15px 20px;
+							  background:#FFF; position:relative}
+		  #content .activity h3 a{ width:168px; background:url(../images/activity.jpg) 0 0 no-repeat}
+		  #content .activity ul{ overflow:hidden}
+		  #content .activity .act{ float:left; width:105px; height:181px; border-bottom:1px solid #ccc; margin-right:12px}
+		  #content .activity .act dd{ font-size:11px; color:#999; padding-left:6px; margin-left:5px; background: url(../images/bar.jpg) left center no-repeat}
+		  #content .activity .act1 dd{ padding-left:5px; margin-left:0}
+		  #content .activity .act5 dd{ padding-left:5px; margin-left:24px}
+		  #content .activity .act6 dd{ padding-left:5px; margin-left:12px}
+		  #content .activity .act6{ margin-right:0}
+		  #content .activity .act a{ display:block; width:105px; height:103px; text-indent:-999px; overflow:hidden;
+										  margin-bottom:7px}
+		  #content .activity .act1 a{ background:url(../images/act1.jpg) 0 0 no-repeat}
+		  #content .activity .act1 a:hover{ background:url(../images/act1_h.jpg) 0 0 no-repeat}
+		  #content .activity .act2 a{ background:url(../images/act2.jpg) 0 0 no-repeat}
+		  #content .activity .act2 a:hover{ background:url(../images/act2_h.jpg) 0 0 no-repeat}
+		  #content .activity .act3 a{ background:url(../images/act3.jpg) 0 0 no-repeat}
+		  #content .activity .act3 a:hover{ background:url(../images/act3_h.jpg) 0 0 no-repeat}
+		  #content .activity .act4 a{ background:url(../images/act4.jpg) 0 0 no-repeat}
+		  #content .activity .act4 a:hover{ background:url(../images/act4_h.jpg) 0 0 no-repeat}
+		  #content .activity .act5 a{ background:url(../images/act5.jpg) 0 0 no-repeat}
+		  #content .activity .act5 a:hover{ background:url(../images/act5_h.jpg) 0 0 no-repeat}
+		  #content .activity .act6 a{ background:url(../images/act6.jpg) 0 0 no-repeat}
+		  #content .activity .act6 a:hover{ background:url(../images/act6_h.jpg) 0 0 no-repeat}
+		    
+
+/* conmid 영역 */
+#content .conmid{ overflow:hidden}
+	#content .notice{ float:left; width:190px; height:210px; margin:20px 0 0 10px; padding:15px 20px;
+							  background:#FFF; position:relative}
+		  #content .notice h3 a{ width:90px; background:url(../images/notice.jpg) 0 0 no-repeat}
+		  #content .notice li{ line-height:1.7em; color:#666}
+	#content .news{ float:left; width:190px; height:210px; margin: 20px 0 0 20px; padding:15px 20px;
+							  background:#FFF; position:relative}
+		  #content .news h3 a{ width:86px;	background:url(../images/news.jpg) 0 0 no-repeat}
+		  #content .news ul{ margin-bottom:20px}
+		  #content .news li{ overflow:hidden}
+		  #content .news li a.newspic{ width:105px; height:86px; float:left}
+		  #content .news1 dt, .news3 dt{ padding:33px 0 0 113px}
+		  #content .news2 dt{ padding:15px 0 0 113px}
+		  #content .news dd{ clear:both; font-size:11px; color:#999; margin-top:12px}
+		  #content .news dd span{ text-align:right; margin-top:5px}
+		  #content .news .num1{ position:absolute; right:15px; top:15px}
+	#content .newsletter{ float:left; width:190px; height:210px; margin: 20px 0 0 20px; padding:15px 20px;
+								background:#FFF; position:relative}
+		  #content .newsletter h3 a{ width:97px; background:url(../images/newsletter.jpg) 0 0 no-repeat}
+		  #content .newsletter ul{ overflow:hidden}
+		  #content .newsletter li{ float:left}
+		  #content .newsletter dt a{ width:85px; height:130px; text-indent:-999px; overflow:hidden; display:block}
+		  #content .newsletter li a.summer{ background:url(../images/newsletter1.jpg) 0 0 no-repeat}
+		  #content .newsletter li a.summer:hover{ background:url(../images/newsletter1h.jpg)}
+		  #content .newsletter li a.spring{ background:url(../images/newsletter2.jpg) 0 0 no-repeat}
+		  #content .newsletter li a.spring:hover{ background:url(../images/newsletter2h.jpg)}
+		  #content .newsletter .newsletter2{ margin-left:20px}
+		  #content .newsletter dd{ font-size:11px; color:#666; line-height:1.3em; margin-top:10px; text-align:center}		  
+	#content .quickmenu{ float:right; width:190px; height:210px; margin:20px 10px 0 20px; padding:15px 20px; background:#FFF}
+		  #content .quickmenu h3 a{ width:117px; background:url(../images/quick.jpg) 0 0 no-repeat}
+		  #content .quickmenu ul{ overflow:hidden}
+		  #content .quickmenu .quick{ float:left; margin:0 12px 7px}
+		  #content .quickmenu .quick a{ display:block; width:70px; height:88px; text-indent:-999px; overflow:hidden}
+		  #content .quickmenu .quick1 a{ background:url(../images/quick1.jpg) 0 0 no-repeat}
+  	      #content .quickmenu .quick1 a:hover{ background:url(../images/quick1_h.jpg) 0 0 no-repeat}
+		  #content .quickmenu .quick2 a{ background:url(../images/quick2.jpg) 0 0 no-repeat}
+  	      #content .quickmenu .quick2 a:hover{ background:url(../images/quick2_h.jpg) 0 0 no-repeat}
+		  #content .quickmenu .quick3 a{ background:url(../images/quick3.jpg) 0 0 no-repeat}
+  	      #content .quickmenu .quick3 a:hover{ background:url(../images/quick3_h.jpg) 0 0 no-repeat}
+		  #content .quickmenu .quick4 a{ background:url(../images/quick4.jpg) 0 0 no-repeat}
+  	      #content .quickmenu .quick4 a:hover{ background:url(../images/quick4_h.jpg) 0 0 no-repeat}
+		  
+
+/* conbot 영역 */
+#content .conbot{ overflow:hidden}
+	#content .sns{ float:left; width:440px; height:210px; margin: 20px 0 0 10px; padding:15px 20px; background:#FFF; position:relative}
+		#content .sns h3 a{ width:159px; background:url(../images/sns.jpg)}
+		#content .sns h4 a{ display:block; width:40px; height:60px; overflow:hidden; text-indent:-999px; border-bottom:1px solid #ccc}
+		#content .sns h4 a.tab1{ background:url(../images/sns1.jpg); position:absolute; left:20px; top:43px}
+		#content .sns h4 a.tab1:hover{ background:url(../images/sns1h.jpg)}
+		#content .sns h4 a.tab2{ background:url(../images/sns2.jpg); position:absolute; left:20px; top:104px}
+		#content .sns h4 a.tab2:hover{ background:url(../images/sns2h.jpg)}
+		#content .sns h4 a.tab3{ background:url(../images/sns3.jpg); position:absolute; left:20px; top:165px; border-bottom:0}
+		#content .sns h4 a.tab3:hover{ background:url(../images/sns3h.jpg)}
+		#content .sns .sns_con{ height:182px; padding-left:52px; overflow:auto; margin-bottom:20px}
+		#content .sns dt{ color:#333; font-weight:bold; overflow:hidden}
+			#content .sns dt img{ width:30px; height:30px; float:left}
+			#content .sns .youtube img{ width:100px; height:52px}
+			#content .sns dt a{ float:left; padding-left:10px}
+			#content .sns dt a .date{ font-size:11px; color:#666; display:block; padding-top:3px; font-weight:normal}
+			#content .sns dd{ margin:10px 12px 20px 42px; font-size:11px; color:#666}
+			#content .sns .youtube dd{ margin:0 0 20px 110px}
+	#content .shop{ float:left; width:190px; height:210px; margin: 20px 0 0 20px; padding:15px 20px; background:#FFF; position:relative}
+		#content .shop h3 a{ width:85px; background:url(../images/shop.jpg)}
+		#content .shop ul{ margin-bottom:20px}
+		#content .shop dl{ margin-top:10px; text-align:center}
+		#content .shop dd{ text-align:center}
+		#content .shop .num2{ position:absolute; right:15px; top:15px}
+	#content .participate{ float:right; width:190px; height:210px; margin:20px 10px 0 20px; padding:15px 20px; background:#FFF;
+								overflow:hidden; position:relative}
+		#content .participate h3 a{ width:110px; background: url(../images/participate.jpg)}
+		#content .participate li a{ display:block; text-indent:-999px; overflow:hidden; }
+		#content .participate .volun1 a{ width:190px; height:75px; background:url(../images/volun1.jpg) 0 0 no-repeat}
+		#content .participate .volun1 a:hover{ background:url(../images/volun1_on.jpg) 0 0 no-repeat}
+		#content .participate .volun2 a{ width:190px; height:107px; background:url(../images/volun2.jpg) 0 0 no-repeat}
+		#content .participate .volun2 a:hover{ background:url(../images/volun2_on.jpg) 0 0 no-repeat}
+#content .spon{ width:910px; height:28px; background:#fff; margin:20px 10px 40px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; padding:15px 35px}
+		#content #scroller{ }
+		.simply-scroll-clip{position:relative; overflow:hidden}
+		.simply-scroll-list{overflow:hidden; margin:0; padding:0; list-style:none}
+		.simply-scroll-list li{float:left; width:130px; height:30px}
+		.simply-scroll .simply-scroll-clip{width:910px; height:30px}
+			
+	
+	
+	
+	
+	
+	
+	
+	

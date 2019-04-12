@@ -1,0 +1,51 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu2 a.current{ background:url(../images/content2/leftmenu2_back.jpg)}
+#content .titleArea{}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:160px; height:24px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content2/subtitle2_2.jpg) no-repeat}
+	#content .titleArea p{ width:393px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content2/subtitle2_2add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 44px}
+	#content .contentArea .textArea{ overflow:hidden}
+		#content .contentArea img{ float:left}
+		#content .contentArea .textall{ float:right; width:650px; height:68px; overflow:hidden; border-top:1px solid #ccc; border-bottom:1px solid #ccc}
+			#content .contentArea .textall .text1,.text2,.text3{ float:left; margin:14px 0}
+			#content .contentArea .textall li{ color:#666; margin:0 0 5px 60px; padding-left:12px;
+														background:url(../images/content2/bullet.jpg) left center no-repeat}
+	#content .contentArea .act2{}
+		#content .contentArea .act2 ul{ margin-top:50px; width:745px}
+		#content .contentArea .act2 li{ margin-bottom:40px}
+		#content .contentArea .act2 p{ color:#666; line-height:1.7em}
+		#content .contentArea .act2 h3{ height:18px; text-indent:-999px; overflow:hidden; margin-bottom:18px}
+		  #content .contentArea .act2 .act2_1{ height:211px; 
+											  background:url(../images/content2/pic1.jpg) bottom no-repeat}
+		  #content .contentArea .act2 .act2_1 h3{ width:126px; background:url(../images/content2/act2_1.jpg)}
+		  #content .contentArea .act2 .act2_2{ height:210px;
+		  									background:url(../images/content2/pic2.jpg) bottom no-repeat}
+		  #content .contentArea .act2 .act2_2 h3{ width:132px; background:url(../images/content2/act2_2.jpg)}
+		  #content .contentArea .act2 .act2_3{ height:208px; 
+		  									background:url(../images/content2/pic3.jpg) bottom no-repeat}
+		  #content .contentArea .act2 .act2_3 h3{ width:122px; background:url(../images/content2/act2_3.jpg)}
+		  #content .contentArea .act2 .act2_4{ height:306px;
+		  									background:url(../images/content2/pic4.jpg) bottom no-repeat}
+		  #content .contentArea .act2 .act2_4 h3{ width:238px; background:url(../images/content2/act2_4.jpg)}
+		  #content .contentArea .act2 .act2_5{ height:278px;
+		  									background:url(../images/content2/pic5.jpg) bottom no-repeat}
+		  #content .contentArea .act2 .act2_5 h3{ width:85px; background:url(../images/content2/act2_5.jpg)}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

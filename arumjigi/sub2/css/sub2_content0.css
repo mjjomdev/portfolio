@@ -1,0 +1,45 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+#content .titleArea{}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:92px; height:24px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content0/subtitle2_0.jpg) no-repeat}
+	#content .titleArea p{ width:320px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content0/subtitle2_0add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 44px}
+	#content .contentArea .activity_title{ width:128px; height:21px; text-indent:-999px; overflow:hidden; background:url(../images/content0/activity.jpg)}
+	#content .contentArea .con1{ margin:0 0 50px 15px}
+		#content .contentArea .con1 p{ margin-top:20px}
+	#content .contentArea .con2{ margin-left:15px}
+		#content .contentArea .con2_1, .con2_2 { overflow:hidden}
+		#content .contentArea .con2 h3{ width:200px; height:130px; text-indent:-999px; overflow:hidden}
+		#content .contentArea .con2 p{ width:180px; margin:20px 10px 30px; font-size:11px; color:#666}
+		#content .contentArea .con2 .more{ width:15px; height:15px; text-indent:-999px; overflow:hidden; background:url(../images/content0/more.jpg);
+														position:absolute; right:10px; top:112px}
+		#content .contentArea .con2_1 .act1, .act2, .act4, .act5{ float:left; margin-right:65px; position:relative}
+		#content .contentArea .con2_1 .act3, .act6{ float:right; position:relative}
+		#content .contentArea .con2_1 .act1 h3{ background:url(../images/content0/act1.jpg)}
+		#content .contentArea .con2_1 .act2 h3{ background:url(../images/content0/act2.jpg)}
+		#content .contentArea .con2_1 .act3 h3{ background:url(../images/content0/act3.jpg)}
+		#content .contentArea .con2_2 .act4 h3{ background:url(../images/content0/act4.jpg)}
+		#content .contentArea .con2_2 .act5 h3{ background:url(../images/content0/act5.jpg)}
+		#content .contentArea .con2_2 .act6 h3{ background:url(../images/content0/act6.jpg)}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

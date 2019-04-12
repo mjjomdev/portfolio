@@ -1,0 +1,49 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu2 a.current{ background:url(../images/content2/leftmenu2_back.jpg)}
+#content .titleArea{}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:93px; height:24px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content2/subtitle5_2.jpg) no-repeat}
+	#content .titleArea p{ width:407px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content2/subtitle5_2add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 39px; position:relative}
+	#content .contentArea .search{ width:180px; height:20px; overflow:hidden; position:absolute; right:30px; top:30px; margin-bottom:20px}
+		#content .contentArea .search #search{ float:left; width:147px; height:12px; padding:3px; border:1px solid #ccc}
+		#content .contentArea .search #search_submit{ float:right; width:25px; height:20px; background:url(../images/content2/search.jpg); text-indent:-999px;
+																		overflow:hidden; cursor:pointer; border:0}
+	#content .contentArea .listArea{ margin-top:40px; padding:20px 40px 8px; border-top:1px solid #ccc; border-bottom:1px solid #ccc}
+		#content .contentArea .listArea dl{ overflow:hidden; margin-bottom:12px}
+		#content .contentArea .listArea dt{ float:left; font-weight:bold; background:url(../images/content2/bullet.jpg) left center no-repeat; padding-left:15px}
+		#content .contentArea .listArea dd{ float:left; background:url(../images/content2/bar.jpg) right center no-repeat}	
+		#content .contentArea .listArea dd a:hover{ color:#f9c035}	
+			#content .contentArea .listArea .list1 dt{ margin-right:43px}
+			#content .contentArea .listArea .list1 dd{ margin-left:22px; padding-right:21px}
+			#content .contentArea .listArea .list2 dt{ margin-right:43px}
+			#content .contentArea .listArea .list2 dd{ margin-left:22px; padding-right:21px}
+			#content .contentArea .listArea .list2 .list2_2 { margin-left:163px}
+			#content .contentArea .listArea .list3 dt{ margin-right:49px}
+			#content .contentArea .listArea .list3 dd{ margin-left:16px; padding-right:16px}
+			#content .contentArea .listArea .list4 dt{ margin-right:21px}
+			#content .contentArea .listArea .list4 dd{ margin-left:18px; padding-right:18px}
+			#content .contentArea .listArea .list5 dt{ margin-right:49px}
+			#content .contentArea .listArea .list5 dd{ margin-left:17px; padding-right:17px}
+			#content .contentArea .listArea .list6 dt{ margin-right:21px}
+			#content .contentArea .listArea .list6 dd{ margin-left:18px; padding-right:18px}
+			#content .contentArea .listArea dd.last{ background:none; padding:0}
+	#content .contentArea .product{ margin-top:50px}
+		#content .contentArea .product .line1{ overflow:hidden}
+			#content .contentArea .product li{ float:left; margin:0 0 50px 35px}
+			#content .contentArea .product li.first{ margin-left:0}
+			#content .contentArea .product dl{ width:160px}
+			#content .contentArea .product dt{ text-align:center; margin-bottom:5px}
+			#content .contentArea .product dd{ font-size:11px; color:#666; padding-left:40px; text-align:left;
+														background:url(../images/content2/dot.jpg) 32px center no-repeat}
+	#content .contentArea .page{ text-align:center}			
+		#content .contentArea .page span{ width:18px; height:18px; border:1px solid #ccc; text-align:center;
+												padding:3px 8px; color:#666}
+			#content .contentArea .page span.on{ background:#f9c035}	
+			
+
+

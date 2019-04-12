@@ -1,0 +1,48 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu1 a.current{ background:url(../images/content1/leftmenu1_back.jpg)}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:143px; height:22px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content1/subtitle4_1.jpg) no-repeat}
+	#content .titleArea p{ width:384px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content1/subtitle4_1add.jpg) no-repeat}
+.container #content .contentArea{ padding:45px 30px 100px 44px}
+	#content .contentArea .optArea{ overflow:hidden}
+		#content .contentArea .optArea li{ float:left; margin-right:45px; width:350px}
+		#content .contentArea .optArea li h3{ width:350px; height:95px; text-indent:-999px; overflow:hidden; margin-bottom:25px}
+		#content .contentArea .optArea li p{ padding:34px 24px; border:1px solid #f9c035}
+		#content .contentArea .optArea li span{ display:block}
+			#content .contentArea .optArea li span.mar_top{ margin-top:20px}
+		#content .contentArea .optArea .opt2{ margin-right:0}
+		#content .contentArea .optArea .opt1 h3{ background:url(../images/content1/opt1.jpg)}
+		#content .contentArea .optArea .opt2 h3{ background:url(../images/content1/opt2.jpg)}
+	#content .contentArea .formArea{ margin-top:50px}
+		#content .contentArea .formArea table{ width:745px}
+		#content .contentArea .formArea .first{ border-top:1px solid #ccc}
+		#content .contentArea .formArea tr{ border-bottom:1px solid #ccc}
+		#content .contentArea .formArea th{ border-right:1px solid #ccc; padding:0 10px; width:150px}
+		#content .contentArea .formArea td{ padding:10px 20px}		
+		#content .contentArea .formArea .form_style{ height:20px; background:#ddd; border:0}
+		#content .contentArea .formArea #opt2{ margin-left:20px}
+		#content .contentArea .formArea .rule{ margin:10px 0; line-height:1.5em; border:1px solid #ddd; height:200px; overflow:auto}
+			#content .contentArea .formArea .rule p{ padding:15px; color:#666; font-size:11px}
+			#content .contentArea .formArea .rule span{ font-weight:bold; display:block; margin-top:10px}
+			#content .contentArea .formArea .agree{ margin:5px 0}
+			#content .contentArea .formArea #agree1{ margin-left:360px}
+			#content .contentArea .formArea #agree2{ margin-left:20px}
+		#content .contentArea .formArea #memo{ margin:10px 0}	
+		#content .contentArea .formArea .btnArea{ border-bottom:none}
+			#content .contentArea .formArea .btn{ text-indent:-999px; overflow:hidden; border:0; cursor:pointer; margin-top:20px}
+			#content .contentArea .formArea .submit{ width:90px; height:28px; background:url(../images/content1/submit.jpg)}		
+			#content .contentArea .formArea .reset{ width:90px; height:28px; background:url(../images/content1/reset.jpg)}			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

@@ -1,0 +1,54 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu1 a.current{ background:url(../images/content1/leftmenu1_back.jpg)}
+#content .titleArea{}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:243px; height:24px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content1/subtitle2_1.jpg) no-repeat}
+	#content .titleArea p{ width:336px; height:14px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content1/subtitle2_1add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 44px}
+	#content .contentArea .textArea{ overflow:hidden}
+		#content .contentArea img{ float:left}
+		#content .contentArea .textall{ float:right; width:650px; height:68px; overflow:hidden; border-top:1px solid #ccc; border-bottom:1px solid #ccc}
+			#content .contentArea .textall .text1,.text2,.text3{ float:left; margin:15px 0}
+			#content .contentArea .textall li{ color:#666; margin:0 0 5px 28px; padding-left:12px;
+														background:url(../images/content1/bullet.jpg) left center no-repeat}
+	#content .contentArea .act1{}
+		#content .contentArea .act1 ul{ margin-top:50px; width:745px}
+		#content .contentArea .act1 li{ margin-bottom:40px}
+		#content .contentArea .act1 p{ color:#666; line-height:1.7em}
+		#content .contentArea .act1 h3{ height:18px; text-indent:-999px; overflow:hidden; margin-bottom:18px}
+		  #content .contentArea .act1 .act1_1{ width:483px; padding-right:262px; 
+											  background:url(../images/content1/pic1.jpg) right bottom no-repeat}
+		  #content .contentArea .act1 .act1_1 h3{ width:154px; background:url(../images/content1/act1_1.jpg)}
+		  #content .contentArea .act1 .act1_2{ width:390px; padding:34px 0 0 355px;
+		  									background:url(../images/content1/pic2.jpg) left bottom no-repeat}
+		  #content .contentArea .act1 .act1_2 h3{ width:184px; background:url(../images/content1/act1_2.jpg)}
+		  #content .contentArea .act1 .act1_3{ width:277px; padding-right:468px;
+		  									background:url(../images/content1/pic3.jpg) right bottom no-repeat}
+		  #content .contentArea .act1 .act1_3 h3{ width:229px; background:url(../images/content1/act1_3.jpg)}
+		  #content .contentArea .act1 .act1_4{ width:341px; padding:5px 0 0 404px;
+		  									background:url(../images/content1/pic4.jpg) left bottom no-repeat}
+		  #content .contentArea .act1 .act1_4 h3{ width:181px; background:url(../images/content1/act1_4.jpg)}
+		  #content .contentArea .act1 .act1_5{ width:403px; padding-right:342px;
+		  									background:url(../images/content1/pic5.jpg) right bottom no-repeat}
+		  #content .contentArea .act1 .act1_5 h3{ width:180px; background:url(../images/content1/act1_5.jpg)}
+		  #content .contentArea .act1 .act1_6{ width:487px; padding:25px 0 0 258px;
+		  									background:url(../images/content1/pic6.jpg) left bottom no-repeat}
+		  #content .contentArea .act1 .act1_6 h3{ width:112px; background:url(../images/content1/act1_6.jpg)}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

@@ -1,0 +1,39 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu1 a.current{ background:url(../images/content1/leftmenu1_back.jpg)}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:91px; height:22px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content1/subtitle1_1.jpg) no-repeat}
+	#content .titleArea p{ width:294px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content1/subtitle1_1add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 44px}
+	#content .contentArea .vision_title{ width:124px; height:21px; text-indent:-999px; overflow:hidden; background:url(../images/content1/vision.jpg)}
+	#content .contentArea .vision{ width:730px; height:283px; margin:25px 15px 0; background:url(../images/content1/vision_pic.jpg) right bottom no-repeat}
+		#content .contentArea .vision .vision_add{ width:408px; height:65px; text-indent:-999px; overflow:hidden; margin-top:10px;
+																background:url(../images/content1/vision_add.jpg)}
+		#content .contentArea .vision p{ width:408px; margin-top:20px}
+	#content .contentArea .act_title{ width:162px; height:21px; text-indent:-999px; overflow:hidden; margin-top:50px;
+												background:url(../images/content1/act.jpg)}
+	#content .contentArea .act{ width:730px; margin-top:10px; overflow:hidden}
+		#content .contentArea .act h4{width:200px; height:162px; text-indent:-999px; overflow:hidden}
+		#content .contentArea .act p{ width:200px; color:#666; margin-top:15px}
+		#content .contentArea .act .top{ margin-top:30px}
+			#content .contentArea .act1{ float:left; padding:30px 27px 30px 15px; border-right:1px solid #ccc}
+				#content .contentArea .act1 h4{ background:url(../images/content1/act1.jpg)}
+			#content .contentArea .act2{ float:left; padding:30px 27px 30px 27px; border-right:1px solid #ccc}
+				#content .contentArea .act2 h4{ background:url(../images/content1/act2.jpg)}
+			#content .contentArea .act3{ float:right; padding:30px 0 30px 27px}
+				#content .contentArea .act3 h4{ background:url(../images/content1/act3.jpg)}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

@@ -1,0 +1,158 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu2 a.current{ background:url(../images/content2/leftmenu2_back.jpg)}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:91px; height:22px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content2/subtitle1_2.jpg) no-repeat}
+	#content .titleArea p{ width:395px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:50px;
+									background:url(../images/content2/subtitle1_2add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 44px; height:1872px}
+	#content .contentArea .con1{}
+		#content .contentArea .con1 h3{ width:180px; height:21px; text-indent:-999px; overflow:hidden; background:url(../images/content2/history.jpg)}
+		#content .contentArea .con1 p{ width:730px; margin:18px 0 30px 15px}
+		#content .contentArea .con1 .tab{ overflow:hidden; margin:0 0 68px 15px}
+		#content .contentArea .con1 .tab a{ float:left; height:45px; text-indent:-999px; overflow:hidden;}
+		#content .contentArea .con1 .tab1 a{ width:243px; background:url(../images/content2/tab1.jpg)}
+		#content .contentArea .con1 .tab1 a:hover{ background:url(../images/content2/tab1_h.jpg)}
+		#content .contentArea .con1 .tab2 a{ width:243px; background:url(../images/content2/tab2.jpg)}
+		#content .contentArea .con1 .tab2 a:hover{ background:url(../images/content2/tab2_h.jpg)}
+		#content .contentArea .con1 .tab3 a{ width:244px; background:url(../images/content2/tab3.jpg)}
+		#content .contentArea .con1 .tab3 a:hover{ background:url(../images/content2/tab3_h.jpg)}
+	#content .contentArea .con2{ padding:0 0 100px 15px; position:relative}
+		#content .contentArea .con2 dl{ position:relative}
+			#content .contentArea .con2 dt{ width:170px; height:112px; text-indent:-999px; overflow:hidden}
+			#content .contentArea .con2 dd{ font-size:11px; color:#666}
+			#content .contentArea .con2 .his2015{ background:url(../images/content2/2015.jpg); position:absolute; left:280px; top:45px}
+				#content .contentArea .con2 .his15_1{ position:absolute; left:470px; top:0}
+				#content .contentArea .con2 .his15_2{ position:absolute; left:470px; top:18px}
+				#content .contentArea .con2 .his15_3{ position:absolute; left:470px; top:36px}
+				#content .contentArea .con2 .his15_4{ position:absolute; left:470px; top:54px}
+				#content .contentArea .con2 .his15_5{ position:absolute; left:470px; top:72px}
+				#content .contentArea .con2 .his15_6{ position:absolute; left:470px; top:90px}
+				#content .contentArea .con2 .his15_7{ position:absolute; left:470px; top:108px}
+				#content .contentArea .con2 .his15_8{ position:absolute; left:470px; top:126px}
+				#content .contentArea .con2 .his15_9{ position:absolute; left:470px; top:144px}
+			#content .contentArea .con2 .his2014{ background:url(../images/content2/2014.jpg); position:absolute; left:280px; top:157px}
+				#content .contentArea .con2 .his14_1{ position:absolute; right:470px; top:45px}
+				#content .contentArea .con2 .his14_2{ position:absolute; right:470px; top:63px}
+				#content .contentArea .con2 .his14_3{ position:absolute; right:470px; top:81px}
+				#content .contentArea .con2 .his14_4{ position:absolute; right:470px; top:99px}
+				#content .contentArea .con2 .his14_5{ position:absolute; right:470px; top:117px}
+				#content .contentArea .con2 .his14_6{ position:absolute; right:470px; top:135px}
+				#content .contentArea .con2 .his14_7{ position:absolute; right:470px; top:153px}
+				#content .contentArea .con2 .his14_8{ position:absolute; right:470px; top:171px}
+				#content .contentArea .con2 .his14_9{ position:absolute; right:470px; top:189px}
+				#content .contentArea .con2 .his14_pic1{ width:75px; height:100px; text-indent:-999px; overflow:hidden;
+																		position:absolute; left:0; top:212px; background:url(../images/content2/2014pic1.jpg)}
+				#content .contentArea .con2 .his14_pic2{ width:180px; height:100px; text-indent:-999px; overflow:hidden;
+																		position:absolute; left:80px; top:212px; background:url(../images/content2/2014pic2.jpg)}
+			#content .contentArea .con2 .his2013{ background:url(../images/content2/2013.jpg); position:absolute; left:280px; top:269px}
+				#content .contentArea .con2 .his13_1{ position:absolute; left:470px; top:236px}
+				#content .contentArea .con2 .his13_2{ position:absolute; left:470px; top:254px}
+				#content .contentArea .con2 .his13_3{ position:absolute; left:470px; top:272px}
+				#content .contentArea .con2 .his13_4{ position:absolute; left:470px; top:290px}
+				#content .contentArea .con2 .his13_5{ position:absolute; left:470px; top:308px}
+				#content .contentArea .con2 .his13_6{ position:absolute; left:470px; top:326px}
+				#content .contentArea .con2 .his13_7{ position:absolute; left:470px; top:344px}
+				#content .contentArea .con2 .his13_8{ position:absolute; left:470px; top:362px}
+			#content .contentArea .con2 .his2012{ background:url(../images/content2/2012.jpg); position:absolute; left:280px; top:381px}
+				#content .contentArea .con2 .his12_1{ position:absolute; right:470px; top:355px}
+				#content .contentArea .con2 .his12_2{ position:absolute; right:470px; top:373px}
+				#content .contentArea .con2 .his12_3{ position:absolute; right:470px; top:391px; text-align:right}
+				#content .contentArea .con2 .his12_4{ position:absolute; right:470px; top:427px}
+				#content .contentArea .con2 .his12_5{ position:absolute; right:470px; top:445px}
+				#content .contentArea .con2 .his12_6{ position:absolute; right:470px; top:463px}
+				#content .contentArea .con2 .his12_7{ position:absolute; right:470px; top:481px}				
+			#content .contentArea .con2 .his2011{ background:url(../images/content2/2011.jpg); position:absolute; left:280px; top:493px}
+				#content .contentArea .con2 .his11_1{ position:absolute; left:470px; top:414px}
+				#content .contentArea .con2 .his11_2{ position:absolute; left:470px; top:432px}
+				#content .contentArea .con2 .his11_3{ position:absolute; left:470px; top:450px}
+				#content .contentArea .con2 .his11_4{ position:absolute; left:470px; top:468px}
+				#content .contentArea .con2 .his11_5{ position:absolute; left:470px; top:486px}
+				#content .contentArea .con2 .his11_6{ position:absolute; left:470px; top:504px}
+				#content .contentArea .con2 .his11_7{ position:absolute; left:470px; top:522px}
+				#content .contentArea .con2 .his11_8{ position:absolute; left:470px; top:540px}
+				#content .contentArea .con2 .his11_pic1{ width:260px; height:100px; text-indent:-999px; overflow:hidden;
+																		position:absolute; right:0; top:562px; background:url(../images/content2/2011pic.jpg)}
+			#content .contentArea .con2 .his2010{ background:url(../images/content2/2010.jpg); position:absolute; left:280px; top:605px}
+				#content .contentArea .con2 .his10_1{ position:absolute; right:470px; top:585px}
+				#content .contentArea .con2 .his10_2{ position:absolute; right:470px; top:603px}
+				#content .contentArea .con2 .his10_3{ position:absolute; right:470px; top:621px}
+				#content .contentArea .con2 .his10_4{ position:absolute; right:470px; top:639px}
+				#content .contentArea .con2 .his10_5{ position:absolute; right:470px; top:657px}
+				#content .contentArea .con2 .his10_6{ position:absolute; right:470px; top:675px}
+				#content .contentArea .con2 .his10_7{ position:absolute; right:470px; top:693px}	
+			#content .contentArea .con2 .his2009{ background:url(../images/content2/2009.jpg); position:absolute; left:280px; top:717px}
+				#content .contentArea .con2 .his09_1{ position:absolute; left:470px; top:703px}
+				#content .contentArea .con2 .his09_2{ position:absolute; left:470px; top:722px}
+				#content .contentArea .con2 .his09_3{ position:absolute; left:470px; top:740px}
+				#content .contentArea .con2 .his09_4{ position:absolute; left:470px; top:758px}
+				#content .contentArea .con2 .his09_5{ position:absolute; left:470px; top:776px}
+			#content .contentArea .con2 .his2008{ background:url(../images/content2/2008.jpg); position:absolute; left:280px; top:829px}
+				#content .contentArea .con2 .his08_1{ position:absolute; right:470px; top:780px}
+				#content .contentArea .con2 .his08_2{ position:absolute; right:470px; top:798px}
+				#content .contentArea .con2 .his08_3{ position:absolute; right:470px; top:816px}
+				#content .contentArea .con2 .his08_4{ position:absolute; right:470px; top:834px}
+				#content .contentArea .con2 .his08_5{ position:absolute; right:470px; top:852px}
+				#content .contentArea .con2 .his08_pic1{ width:148px; height:100px; text-indent:-999px; overflow:hidden;
+																		position:absolute; left:0; top:874px; background:url(../images/content2/2008pic1.jpg)}
+				#content .contentArea .con2 .his08_pic2{ width:106px; height:100px; text-indent:-999px; overflow:hidden;
+																		position:absolute; left:155px; top:874px; background:url(../images/content2/2008pic2.jpg)}
+			#content .contentArea .con2 .his2007{ background:url(../images/content2/2007.jpg); position:absolute; left:280px; top:941px}
+				#content .contentArea .con2 .his07_1{ position:absolute; left:470px; top:883px}
+				#content .contentArea .con2 .his07_2{ position:absolute; left:470px; top:901px}
+				#content .contentArea .con2 .his07_3{ position:absolute; left:470px; top:919px}
+				#content .contentArea .con2 .his07_4{ position:absolute; left:470px; top:937px}
+				#content .contentArea .con2 .his07_5{ position:absolute; left:470px; top:955px}
+				#content .contentArea .con2 .his07_6{ position:absolute; left:470px; top:973px}
+				#content .contentArea .con2 .his07_7{ position:absolute; left:470px; top:991px}
+				#content .contentArea .con2 .his07_8{ position:absolute; left:470px; top:1009px}
+				#content .contentArea .con2 .his07_9{ position:absolute; left:470px; top:1027px}
+				#content .contentArea .con2 .his07_10{ position:absolute; left:470px; top:1045px}
+				#content .contentArea .con2 .his07_11{ position:absolute; left:470px; top:1063px}
+			#content .contentArea .con2 .his2006{ background:url(../images/content2/2006.jpg); position:absolute; left:280px; top:1053px}
+				#content .contentArea .con2 .his06_1{ position:absolute; right:470px; top:1029px}
+				#content .contentArea .con2 .his06_2{ position:absolute; right:470px; top:1047px}
+				#content .contentArea .con2 .his06_3{ position:absolute; right:470px; top:1065px}
+				#content .contentArea .con2 .his06_4{ position:absolute; right:470px; top:1083px}
+				#content .contentArea .con2 .his06_5{ position:absolute; right:470px; top:1101px}
+				#content .contentArea .con2 .his06_6{ position:absolute; right:470px; top:1119px}
+				#content .contentArea .con2 .his06_7{ position:absolute; right:470px; top:1137px}
+			#content .contentArea .con2 .his2005{ background:url(../images/content2/2005.jpg); position:absolute; left:280px; top:1165px}
+				#content .contentArea .con2 .his05_1{ position:absolute; left:470px; top:1150px}
+				#content .contentArea .con2 .his05_2{ position:absolute; left:470px; top:1168px}
+				#content .contentArea .con2 .his05_3{ position:absolute; left:470px; top:1186px}
+				#content .contentArea .con2 .his05_4{ position:absolute; left:470px; top:1204px}
+				#content .contentArea .con2 .his05_5{ position:absolute; left:470px; top:1222px}
+				#content .contentArea .con2 .his05_6{ position:absolute; left:470px; top:1240px}
+				#content .contentArea .con2 .his05_pic1{ width:97px; height:100px; text-indent:-999px; overflow:hidden;
+																		position:absolute; right:163px; top:1263px; background:url(../images/content2/2005pic1.jpg)}
+				#content .contentArea .con2 .his05_pic2{ width:158px; height:100px; text-indent:-999px; overflow:hidden;
+																		position:absolute; right:0; top:1263px; background:url(../images/content2/2005pic2.jpg)}
+			#content .contentArea .con2 .his2004{ background:url(../images/content2/2004.jpg); position:absolute; left:280px; top:1277px}
+				#content .contentArea .con2 .his04_1{ position:absolute; right:470px; top:1250px}
+				#content .contentArea .con2 .his04_2{ position:absolute; right:470px; top:1268px}
+				#content .contentArea .con2 .his04_3{ position:absolute; right:470px; top:1286px}
+				#content .contentArea .con2 .his04_4{ position:absolute; right:470px; top:1304px; text-align:right}
+				#content .contentArea .con2 .his04_5{ position:absolute; right:470px; top:1340px}
+				#content .contentArea .con2 .his04_pic1{ width:172px; height:100px; text-indent:-999px; overflow:hidden;
+																		position:absolute; left:0; top:1363px; background:url(../images/content2/2004pic1.jpg)}
+				#content .contentArea .con2 .his04_pic2{ width:83px; height:100px; text-indent:-999px; overflow:hidden;
+																		position:absolute; left:177px; top:1363px; background:url(../images/content2/2004pic2.jpg)}
+			#content .contentArea .con2 .his2003{ background:url(../images/content2/2003.jpg); position:absolute; left:280px; top:1389px}
+				#content .contentArea .con2 .his03_1{ position:absolute; left:470px; top:1405px}
+				#content .contentArea .con2 .his03_2{ position:absolute; left:470px; top:1423px}
+				#content .contentArea .con2 .his03_3{ position:absolute; left:470px; top:1441px}
+			#content .contentArea .con2 img{ position:absolute; left:295px; top:1501px}
+				
+
+				
+				
+				
+				
+				
+				
+				
+				
+				

@@ -1,0 +1,74 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu3 a.current{ background:url(../images/content3/leftmenu3_back.jpg)}
+#content .titleArea{}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:134px; height:24px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content3/subtitle2_3.jpg) no-repeat}
+	#content .titleArea p{ width:518px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content3/subtitle2_3add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 44px}
+	#content .contentArea .textArea{ overflow:hidden}
+		#content .contentArea img{ float:left}
+		#content .contentArea .textall{ float:right; width:650px; height:68px; overflow:hidden; border-top:1px solid #ccc; border-bottom:1px solid #ccc}
+			#content .contentArea .textall .text{ overflow:hidden}
+			#content .contentArea .textall .text li{ float:left; margin:24px 55px; color:#666; padding-left:12px;
+														background:url(../images/content3/bullet.jpg) left center no-repeat}
+	#content .contentArea .act3{}
+		#content .contentArea .act3 ul.act3content{ margin-top:50px; width:745px}
+		#content .contentArea .act3 .act3_1, .act3_2, .act3_3{ margin-bottom:40px}
+		#content .contentArea .act3 p{ color:#666; line-height:1.7em; margin-bottom:10px}
+		#content .contentArea .act3 h3{ height:18px; text-indent:-999px; overflow:hidden; margin-bottom:18px}
+		    #content .contentArea .act3 .list{ overflow:hidden}
+		  	#content .contentArea .act3 .list li{ float:left; margin:10px 20px 0 0}
+			#content .contentArea .act3 .list li.last{ margin-right:0}
+			#content .contentArea .act3 .list li a{ display:block; text-indent:-999px; overflow:hidden}
+			#content .contentArea .act3 .act3_1 h3{ width:111px; background:url(../images/content3/act3_1.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_1 a{ width:235px; height:120px; background:url(../images/content3/pic1_1.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_1 a:hover{ background:url(../images/content3/pic1_1h.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_2 a{ width:235px; height:120px; background:url(../images/content3/pic1_2.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_2 a:hover{ background:url(../images/content3/pic1_2h.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_3 a{ width:235px; height:120px; background:url(../images/content3/pic1_3.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_3 a:hover{ background:url(../images/content3/pic1_3h.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_4 a{ width:235px; height:120px; background:url(../images/content3/pic1_4.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_4 a:hover{ background:url(../images/content3/pic1_4h.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_5 a{ width:235px; height:120px; background:url(../images/content3/pic1_5.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_5 a:hover{ background:url(../images/content3/pic1_5h.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_6 a{ width:235px; height:120px; background:url(../images/content3/pic1_6.jpg)}
+				#content .contentArea .act3 .act3_1 .list1_6 a:hover{ background:url(../images/content3/pic1_6h.jpg)}
+		  #content .contentArea .act3 .act3_2 h3{ width:77px; background:url(../images/content3/act3_2.jpg)}
+		  		#content .contentArea .act3 .act3_2 .list2_1 a{ width:235px; height:120px; background:url(../images/content3/pic2_1.jpg)}
+				#content .contentArea .act3 .act3_2 .list2_1 a:hover{ background:url(../images/content3/pic2_1h.jpg)}
+				#content .contentArea .act3 .act3_2 .list2_2 a{ width:235px; height:120px; background:url(../images/content3/pic2_2.jpg)}
+				#content .contentArea .act3 .act3_2 .list2_2 a:hover{ background:url(../images/content3/pic2_2h.jpg)}
+				#content .contentArea .act3 .act3_2 .list2_3 a{ width:235px; height:120px; background:url(../images/content3/pic2_3.jpg)}
+				#content .contentArea .act3 .act3_2 .list2_3 a:hover{ background:url(../images/content3/pic2_3h.jpg)}
+		  #content .contentArea .act3 .act3_3 h3{ width:97px; background:url(../images/content3/act3_3.jpg)}
+		  		#content .contentArea .act3 .act3_3 .list3_1 a{ width:235px; height:120px; background:url(../images/content3/pic3_1.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_1 a:hover{ background:url(../images/content3/pic3_1h.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_2 a{ width:235px; height:120px; background:url(../images/content3/pic3_2.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_2 a:hover{ background:url(../images/content3/pic3_2h.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_3 a{ width:235px; height:120px; background:url(../images/content3/pic3_3.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_3 a:hover{ background:url(../images/content3/pic3_3h.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_4 a{ width:235px; height:120px; background:url(../images/content3/pic3_4.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_4 a:hover{ background:url(../images/content3/pic3_4h.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_5 a{ width:235px; height:120px; background:url(../images/content3/pic3_5.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_5 a:hover{ background:url(../images/content3/pic3_5h.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_6 a{ width:235px; height:120px; background:url(../images/content3/pic3_6.jpg)}
+				#content .contentArea .act3 .act3_3 .list3_6 a:hover{ background:url(../images/content3/pic3_6h.jpg)}
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

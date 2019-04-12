@@ -1,0 +1,30 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu1 a.current{ background:url(../images/content1/leftmenu1_back.jpg)}
+#content .titleArea{}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:92px; height:24px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content1/subtitle5_1.jpg) no-repeat}
+	#content .titleArea p{ width:440px; height:13px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content1/subtitle5_1add.jpg) no-repeat}
+.container #content .contentArea{ padding:10px 30px 100px 29px}
+	#content .contentArea ul{ overflow:hidden; padding:20px 0; border-bottom:1px dashed #f9c035}
+		#content .contentArea ul.last{ border-bottom:0}
+	#content .contentArea li{ float:left; width:340px; height:245px; margin:0 15px}
+		#content .contentArea li.pro_left{ padding-right:19px; border-right:1px dashed #f9c035}
+		#content .contentArea .product1{ background:url(../images/content1/pic1.png) right bottom no-repeat}
+		#content .contentArea .product2{ background:url(../images/content1/pic2.png) right bottom no-repeat}
+		#content .contentArea .product3{ background:url(../images/content1/pic3.png) right bottom no-repeat}
+		#content .contentArea .product4{ background:url(../images/content1/pic4.png) right bottom no-repeat}
+		#content .contentArea .product5{ background:url(../images/content1/pic5.png) right bottom no-repeat}
+		#content .contentArea .product6{ background:url(../images/content1/pic6.png) right bottom no-repeat}
+	#content .contentArea h3{ text-indent:-999px; overflow:hidden; height:20px; margin-bottom:18px}
+		#content .contentArea .product1 h3{ width:110px; background:url(../images/content1/product1.jpg)}
+		#content .contentArea .product2 h3{ width:110px; background:url(../images/content1/product2.jpg)}
+		#content .contentArea .product3 h3{ width:110px; background:url(../images/content1/product3.jpg)}
+		#content .contentArea .product4 h3{ width:130px; background:url(../images/content1/product4.jpg)}
+		#content .contentArea .product5 h3{ width:110px; background:url(../images/content1/product5.jpg)}
+		#content .contentArea .product6 h3{ width:130px; background:url(../images/content1/product6.jpg)}
+	#content .contentArea p{ padding:0 15px 0 10px; line-height:1.7em}
+		

@@ -1,0 +1,33 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu1 a.current{ background:url(../images/content1/leftmenu1_back.jpg)}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:91px; height:24px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content1/subtitle6_1.jpg) no-repeat}
+	#content .titleArea p{ width:487px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content1/subtitle6_1add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 29px}
+	#content .contentArea .notice{ overflow:hidden; width:760px; position:relative; color:#666}
+		#content .contentArea .notice table{ width:760px; line-height:2em; border-top:1px solid #ccc} 
+				.contentArea .notice table thead th{ border-right:1px solid #ccc}
+				.contentArea .notice table thead th.last{ border-right:none}
+				.contentArea .notice table thead tr{ border-bottom:1px solid #ccc}
+				.contentArea .notice table tr{ border-bottom:1px dotted #ccc}
+				.contentArea .notice table tr.no_line{ border-bottom:0}
+				.contentArea .notice .search_opt{ position:absolute; bottom:1px; right:190px}
+				.contentArea .notice .search{ width:180px; height:20px; overflow:hidden; position:absolute; bottom:0; right:0}
+					.contentArea .notice .search #search{ float:left; width:147px; height:12px; padding:3px; border:1px solid #ccc}
+					.contentArea .notice .search #search_submit{ float:right; width:25px; height:20px; background:url(../images/content1/search.jpg);
+																		text-indent:-999px; overflow:hidden; cursor:pointer; border:0}
+				.contentArea .notice table .form_tr{ text-align:left; padding-top:20px}
+				.contentArea .notice table a{ margin-right:15px; color:#999}
+				.contentArea .notice table th, table tr, table td{ padding:5px}
+				.contentArea .notice table tr{ text-align:center; vertical-align:inherit; display:table-row} 
+				.contentArea .notice table th, table td{ display:table-cell; vertical-align:inherit; text-align:center; color:#666}
+				.contentArea .notice table .td_left{ text-align:left; padding-left:30px}
+
+				
+				
+				
+				

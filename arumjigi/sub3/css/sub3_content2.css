@@ -1,0 +1,51 @@
+/* CSS Document */
+
+/* 각 페이지별 본문 영역 */
+.container .leftNav .leftMenu .menu2 a.current{ background:url(../images/content2/leftmenu2_back.jpg)}
+#content .titleArea{}
+	#content .titleArea .lineMap{ position:absolute; right:30px; top:15px; font-size:11px; color:#555}
+	#content .titleArea h2{ width:66px; height:24px; text-indent:-999px; overflow:hidden; margin-bottom:16px;
+								background:url(../images/content2/subtitle3_2.jpg) no-repeat}
+	#content .titleArea p{ width:485px; height:12px; text-indent:-999px; overflow:hidden; margin-bottom:52px;
+								background:url(../images/content2/subtitle3_2add.jpg) no-repeat}
+.container #content .contentArea{ padding:30px 30px 100px 29px}
+	#content .contentArea .scrollArea{ width:720px; height:100px; padding:20px 20px; position:relative}
+			.simply-scroll-clip{position:relative; overflow:hidden}
+			.simply-scroll-list{overflow:hidden; margin:0; padding:0; list-style:none}
+			.simply-scroll-list li{float:left; width:72px; height:100px; margin-right:15px}
+			.simply-scroll .simply-scroll-clip{width:720px; height:100px}		
+		#content .contentArea .scrollArea a{ display:block; text-indent:-999px; overflow:hidden; width:72px; height:100px}
+		#content .contentArea .scrollArea a.tab1{ background:url(../images/content2/nl_vol1.jpg)}
+		#content .contentArea .scrollArea a.tab2{ background:url(../images/content2/nl_vol2.jpg)}
+		#content .contentArea .scrollArea a.tab3{ background:url(../images/content2/nl_vol3.jpg)}
+		#content .contentArea .scrollArea a.tab4{ background:url(../images/content2/nl_vol4.jpg)}
+		#content .contentArea .scrollArea a.tab5{ background:url(../images/content2/nl_vol5.jpg)}
+		#content .contentArea .scrollArea a.tab6{ background:url(../images/content2/nl_vol6.jpg)}
+		#content .contentArea .scrollArea a.tab7{ background:url(../images/content2/nl_vol7.jpg)}
+		#content .contentArea .scrollArea a.tab8{ background:url(../images/content2/nl_vol8.jpg)}
+	#content .contentArea .nletterArea{ width:760px; height:575px; overflow:hidden}
+		#content .contentArea .nletter{ width:720px; height:535px; margin:40px 20px 0; overflow:hidden; position:relative}	
+			#content .contentArea .nletter img{ float:left}
+			#content .contentArea .nletter .nl_con{ float:left; margin:10px 0 40px 40px}
+				.contentArea .nletter .nl_con h3{ padding-left:10px; background:url(../images/content2/bar.jpg) left center no-repeat}
+				.contentArea .nletter .nl_con h3 span{ display:block; font-family:Arial; font-weight:bold}
+				.contentArea .nletter .nl_con ul{ padding-top:10px}
+				.contentArea .nletter .nl_con dt{ font-weight:bold; line-height:2.2em; padding-left:10px}
+				.contentArea .nletter .nl_con dd{ font-size:11px; color:#666; padding-left:40px}
+			#content .contentArea .nletter .pdf_dwld{ width:95px; height:25px; display:block; text-indent:-999px; overflow:hidden; background:url(../images/content2/pdf_dwld.jpg); position:absolute; right:0; bottom:0}
+			
+			
+			
+			
+			
+			
+			
+
+
+
+
+
+
+
+
+
