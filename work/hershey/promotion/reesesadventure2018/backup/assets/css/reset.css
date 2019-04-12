@@ -1,0 +1,81 @@
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align:baseline;
+	font-smoothing:antialiased;	
+	-webkit-font-smoothing:antialiased;
+}
+button{
+	background:none
+}
+h1,h2,h3,p,ul,li,dl,dt,dd,ol{
+	line-height:1.4em
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{
+  display: block;
+}
+ol,ul,dl{
+  list-style: none;
+}
+blockquote,q{
+  quotes: none;
+}
+section,li,input,div{box-sizing:border-box}
+blockquote:before,blockquote:after,q:before,q:after{
+  content: '';
+  content: none;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+  text-decoration:none;
+}
+a:link,a:visited,a:hover,a:active{
+  text-decoration:none;
+  color:#404040
+}
+input,select{
+  vertical-align:middle;
+}
+button{
+	cursor:pointer;
+}
+i,em,address{
+	font-style:normal;
+	font-weight:normal;
+}
+img,video{
+	max-width:100%;
+	border:0;
+	vertical-align:top;
+}
+.hidden,legend,hr,caption{
+	text-indent:-9999px;
+	display:none;
+	overflow:hidden;
+}

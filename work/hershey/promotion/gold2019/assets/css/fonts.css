@@ -1,0 +1,21 @@
+/* CSS Document */
+@font-face{
+	font-family:Noto Sans KR DemiLight;
+    src: url('../fonts/NotoSansKR-DemiLight.eot');
+    src: url('../fonts/NotoSansKR-DemiLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NotoSansKR-DemiLight.ttf') format('truetype'),
+         url('../fonts/NotoSansKR-DemiLight.woff2') format('woff2'),
+         url('../fonts/NotoSansKR-DemiLight.woff') format('woff'),
+         url('../fonts/NotoSansKR-DemiLight.svg') format('svg');
+}
+@font-face{
+	font-family:Noto Sans KR Bold;
+    src: url('../fonts/NotoSansKR-Bold.eot');
+    src: url('../fonts/NotoSansKR-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NotoSansKR-Bold.ttf') format('truetype'),
+         url('../fonts/NotoSansKR-Bold.woff2') format('woff2'),
+         url('../fonts/NotoSansKR-Bold.woff') format('woff'),
+         url('../fonts/NotoSansKR-Bold.svg') format('svg');
+}
+
+body{font-family:Noto Sans KR Regular, 'Noto Sans KR Regular', sans-serif; }

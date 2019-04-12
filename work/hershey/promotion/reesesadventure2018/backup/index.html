@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 0314 수정. title/description -->
+    <meta property="og:title" content="리세스 단짠케미 프로젝트">
+    <meta property="og:description" content="짠내나는 학교생활, 직장생활을 단짠 리세스와 함께 극복해보세요! 닌텐도스위치, 리세스박스 등 푸짐한 경품도 받고, 에너지도 채우세요!">
+    <meta property="og:image" content="http://hersheysevent.com/html/reesesadventure2018/assets/img/facebook_image.jpg">
+    
+    <!-- 0314 수정. title -->
+	<title>리세스 단짠케미 프로젝트</title>
+    
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115030164-1"></script>    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-115030164-1');
+    </script>
+    
+    <script src="assets/js/jquery-1.8.3.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrap" id="wrap">
+		<div class="black-bg"></div>
+		<div class="bg-img">
+			<img src="assets/img/pc-bg.jpg" width="100%" class="web">
+			<img src="assets/img/mob-bg.jpg"  width="100%" class="mob">
+		</div>
+		
+		<!-- 01. 정보입력 -->
+		<div class="layer-popup" id="pop-step-1">
+        	<div class="layer-bg"></div>
+			<div class="pop-header">
+				<p class="pop-tit text-center">선물 발송을 위해<br><span class="text-focus">정확한 정보를 기입</span>해 주세요</p>
+				<a class="btn-close" href="#;">개인정보입력 팝업 닫기</a>
+			</div>
+			<div class="pop-body">
+				<div class="input-area">
+					<div class="group-input">
+						<div>
+							<label><input type="text" placeholder="이름"></label>
+						</div>
+						<div>
+							<label><input type="text" placeholder="010 - 0000 - 0000"></label>
+						</div>
+						<div>
+							<label><input type="text" placeholder="이메일 주소 입력"></label>
+						</div>
+						<div class="zipcode">
+							<label><input type="text" placeholder="우편번호"><span class="bar">-</span></label>
+                            <a class="btn-zip" href="#">우편번호 찾기</a>
+						</div>
+						<div>
+							<label><input type="text" placeholder="주소"></label>
+						</div>
+						<div>
+							<label><input type="text" placeholder="상세 주소 입력"></label>
+						</div>
+					</div>
+					<div class="info-personal">
+						<div class="chk-agree">
+							<input type="checkbox" name="chk_agree" id="chk_agree" class="chk_agree" />
+							<label for="chk_agree" class="chk_label">개인정보 수집 및 이용 동의</label>
+						</div>
+						<div class="btn-policy">
+							<a href="#;">개인정보 취급방법 안내</a>
+						</div>
+					</div>
+				</div>
+                <p class="tip-policy text-center">* 개인 정보 취급 방침을 확인해주세요. 경품은 이벤트 종료 후 일괄 배송됩니다.</p>
+				<div class="btn-pop btn-br btn-submit">
+					<a href="#;">입력완료</a>
+				</div>
+			</div>
+		</div>
+		<!--// 01. 정보입력 -->
+		
+		<!-- 02. 게임하기 -->
+		<div class="layer-popup" id="pop-step-2">
+        	<div class="layer-bg"></div>
+			<div class="pop-header">
+				<div class="btn-close">
+					<a href="#;">게임하기 팝업 닫기</a>
+				</div>
+			</div>
+			<div class="pop-body">
+				<div class="game-area">
+                	<div class="game-chance">
+	                    <!-- 참여기회 차감되는 경우, img 경로 수정 필요 on -> off -->
+                    	<span><img src="assets/img/game/chance-off.png" alt="" /></span>
+                    	<span><img src="assets/img/game/chance-off.png" alt="" /></span>
+                    	<span><img src="assets/img/game/chance-on.png" alt="" /></span>
+                    	<span><img src="assets/img/game/chance-on.png" alt="" /></span>
+                    	<span><img src="assets/img/game/chance-on.png" alt="" /></span>
+                    </div>
+                    <div class="game-board">
+                    	<ul class="fl-lft">
+                        	<li><img src="assets/img/game/board-num13-off.png" alt="" /></li>
+                        	<li><img src="assets/img/game/board-num14-off.png" alt="" /></li>
+                        	<li class="num-obj num15"><img src="assets/img/game/board-num15-off.png" alt="" /></li>
+                        	<!-- 최종지점에는 디폴트로 goal 클래스명 유지 -->
+                            <li class="goal"><img src="assets/img/game/board-goal-off.png" alt="" /></li>
+                        </ul>
+                    	<ul class="fl-rgt">
+                        	<li class="num-obj num9"><img src="assets/img/game/board-num9-off.png" alt="" /></li>
+                        	<li><img src="assets/img/game/board-num10-off.png" alt="" /></li>
+                        	<li><img src="assets/img/game/board-num11-off.png" alt="" /></li>
+                        	<li><img src="assets/img/game/board-num12-off.png" alt="" /></li>
+                        </ul>
+                    	<ul class="fl-lft">
+                        	<li class="num-obj num5"><img src="assets/img/game/board-num5-off.png" alt="" /></li>
+                        	<li><img src="assets/img/game/board-num6-off.png" alt="" /></li>
+                        	<li><img src="assets/img/game/board-num7-off.png" alt="" /></li>
+                        	<li class="num-obj num8"><img src="assets/img/game/board-num8-off.png" alt="" /></li>
+                        </ul>
+                    	<ul class="fl-rgt">
+	                        <!-- 결과값에 해당하는 경우, active 클래스 추가 필요 -->
+                        	<li class="active"><img src="assets/img/game/board-num1-off.png" alt="" /></li>
+                        	<li><img src="assets/img/game/board-num2-off.png" alt="" /></li>
+                        	<li><img src="assets/img/game/board-num3-off.png" alt="" /></li>
+                        	<li><img src="assets/img/game/board-num4-off.png" alt="" /></li>
+                        </ul>
+                    </div>
+				</div>
+                <div class="dice-area"></div>
+				<div class="btn-double-area">
+					<div class="btn-pop btn-br-sm btn-play">
+						<a href="#;">
+                        	<span class="play">PLAY</span>
+                        	<span class="stop">STOP</span>
+                        </a>
+					</div>
+					<div class="btn-pop btn-yl-sm btn-view">
+						<a href="#;">게임방법보기<span class="arr-ico arr-ico1"></span></a>
+					</div>
+                    
+                    <!-- 게임 결과 팝업 보기 (테스트용/테스트 후 삭제 필요) -->
+					<div class="btn-pop btn-test">
+						<a style="font-size:14px" href="#;">게임결과팝업(테스트)</a>
+					</div>
+                    <!-- //게임 결과 팝업 보기 (테스트용/테스트 후 삭제 필요) -->                    
+                    
+				</div>
+			</div>
+		</div>
+		<!--// 02. 게임하기  -->
+        
+		<!-- 게임방법 -->
+		<div class="layer-popup pop-rule">
+			<div class="pop-header">
+				<p class="pop-tit text-center">게임 방법</p>
+			</div>
+			<div class="pop-body">
+            	<div class="rule-desc">
+                    <p class="text-focus">주사위 PLAY 기회는 총 5번!</p>
+                    <p>PLAY 버튼을 누르면 주사위가 움직이고<br>STOP 버튼을 누르면 주사위가 멈춰요</p>
+                </div>
+                <div class="rule-detail">
+                	<ul>
+                    	<li><span class="text-md">3회 안에 골인</span>하면<br>
+                        <span class="text-md">단짠케미 어드벤처 게임의 모든 경품 <span class="br_mob"></span>응모권</span> 획득!</li>
+                    	<li><span class="text-md">5회 안에 골인</span>하면<br>
+                        <span class="text-md">리세스 피넛버터상 + 리세스 밀크초콜릿상 <span class="br_mob"></span>응모권</span> 획득!</li>
+                    	<li><span class="text-md">5회 안에 골인지점</span>에<br>
+                        도착하지 못하면 <span class="text-md">실패!</span> <span class="br_mob"></span>다시 응모해주세요</li>
+                    </ul>
+                </div>
+			</div>
+			<div class="pop-footer">
+				<div class="btn-pop btn-br btn-close">
+					<a href="#;">확인</a>
+				</div>
+			</div>
+		</div>
+		<!--// 게임방법  -->
+
+		<!-- 주사위결과 -->
+		<div class="layer-popup pop-dice-result">
+			<div class="pop-header">
+			</div>
+			<div class="pop-body">    
+                        
+                <!-- 주사위 단일결과값에 따라 span 태그 내 숫자 변경 필요 -->
+                <div class="result-txt">
+                
+                	<!-- 주사위 결과값 기본 팝업 -->
+            		<img src="assets/img/dice-result.png" alt="" />
+	            	<!-- 0314 수정. (이) 추가 --><p class="text-focus">주사위 <span>5</span>(이)가 나왔네요</p>
+                    <!-- 0312 수정. p태그 2개 순서 교체 -->
+                    <p class="text-wh">단짠단짠 에너지로 힘내세요!</p>
+                    <p><span>15</span>번 칸으로 이동합니다</p>
+                    
+                	<!-- 주사위 최종결과값이 5 혹은 8인 경우 -->
+            		<img src="assets/img/dice-result-5or8.png" alt="" />
+	            	<!-- 0314 수정. (이) 추가 --><p class="text-focus">주사위 <span>3</span>(이)가 나왔네요</p>
+                    <!-- 0312 수정. 클래스명 .text-wh 추가 --><p class="text-wh">와우 달콤해요!</p>
+                    <!-- 0312 수정. 클래스명 .text-wh 삭제 --><p><span>5</span>에서 초콜릿 사다리를 만났어요<br><span>12</span>로 이동합니다</p>
+                    
+                	<!-- 주사위 최종결과값이 9 혹은 15인 경우 -->
+            		<img src="assets/img/dice-result-9or15.png" alt="" />
+	            	<p class="text-focus">주사위 <span>4</span>가 나왔네요</p>
+                    <!-- 0312 수정. 클래스명 .text-wh 추가 --><p class="text-wh">앗, 이럴수가!</p>
+                    <!-- 0312 수정. 클래스명 .text-wh 삭제 --><p><span>15</span>에서 피넛버터 미끄럼을 만났어요<br><span>6</span>(으)로 이동합니다</p>
+                    
+                </div>
+				<div class="btn-pop btn-br">
+					<a href="#;">확인</a>
+				</div>
+			</div>
+		</div>	
+		<!--// 주사위결과 -->
+		
+		<!-- 03. 게임결과 -->
+		<div class="layer-popup" id="pop-step-3">
+			<div class="pop-header">
+			</div>
+			<div class="pop-body">
+            
+            	<!-- 성공한 경우 -->
+                <div class="result-txt">                
+            		<img src="assets/img/game-success.png" alt="" />   
+                                     
+                    <!-- 3회 이내로 성공한 경우 -->
+	            	<p class="text-focus">와우~! 축하합니다</p>
+                    <p>3회만에 골인에 성공하셨어요</p>
+                    <!-- 0312 수정. 클래스명 .text-wh 삭제 --><p class="text-sm">단짠케미 프로젝트의<br>모든 경품에 자동응모 되었습니다<br>행운을 빌어요!</p>
+                    
+                    <!-- 5회 이내로 성공한 경우 -->
+	            	<p class="text-focus">짝짝짝! 축하합니다</p>
+                    <p>5회만에 골인에 성공하셨어요</p>
+                    <!-- 0312 수정. 클래스명 .text-wh 삭제 --><p class="text-sm">단짠케미 프로젝트의 <br>피넛버터상과 밀크초콜릿상 경품에<br>자동응모 되셨습니다. 굿럭!</p>
+                    
+				</div>
+				<div class="btn-double-area">
+                	<!-- 0314 수정. 2개 버튼 위치 교체 -->
+					<div class="btn-pop btn-yl-xl btn-share">
+						<a href="#;">이벤트 공유하고 당첨확률 높이기<span class="arr-ico arr-sm arr-ico"></span></a>
+					</div>
+					<div class="btn-pop btn-br-xl">
+						<a href="https://goo.gl/qwdn2C" title="인증샷 이벤트 참여하러 가기" target="_blank">인증샷 이벤트 참여하러 가기<span class="arr-ico arr-sm arr-ico2"></span></a>
+					</div>
+				</div>
+                
+            	<!-- 실패한 경우 -->
+                <div class="result-txt result-fail">                
+            		<img src="assets/img/game-fail.png" alt="" />   
+	            	<p class="text-focus">단짠케미 어드벤처 골인에<br>실패하셨어요</p>
+                    <!-- 0313 수정. 카피 변경 --><p>실망마세요, <span class="br_mob"></span>재도전이 가능합니다</p>
+                    <!-- 0312 수정. 클래스명 .text-wh 삭제 --><!-- 0313 수정. 카피 변경 --><p class="text-sm">단짠단짠 에너지로 재도전 해주세요</p>
+				</div>
+				<div class="btn-double-area">
+					<div class="btn-pop btn-yl-lg btn-retry">
+						<a href="#;">재도전하기<span class="arr-ico arr-ico1"></span></a>
+					</div>
+					<div class="btn-pop btn-br-lg btn-share">
+						<a href="#;">이벤트 공유하기<span class="arr-ico arr-ico2"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!--// 03. 게임결과 -->
+		
+		<!-- 04. 공유하기 -->
+		<div class="layer-popup" id="pop-step-4">
+			<div class="pop-header">
+			</div>
+			<div class="pop-body">
+            	<p><span class="text-focus">리세스 단짠케미 어드벤처 게임</span>을<br>친구에게 공유해주세요!</p>
+                <ul>
+                	<li class="share-kt"><a href="#" target="_blank" title="">카카오톡 공유하기</a></li>
+                	<li class="share-fb"><a href="#" target="_blank" title="">페이스북 공유하기</a></li>
+                </ul>
+				<div class="btn-pop btn-submit btn-br">
+					<a href="#;">공유완료</a>
+				</div>
+            </div>
+		</div>	
+		<!--// 04. 공유하기 -->
+		
+		<!-- 개인정보 취급방법 안내 -->
+		<div class="layer-popup pop-policy">
+			<div class="pop-header">
+				<p class="text-center pop-tit">개인정보 취급방침 안내</p>
+				<div class="btn-close-policy">
+					<a href="#;">개인정보 취급방법 안내 닫기</a>
+				</div>
+			</div>
+			<div class="pop-body">
+				<div class="pop-text">
+                    <p>제 1조. 수집하는 개인정보의 항목 및 수집 목적</p>
+                    <p>수집하는 개인정보의 항목은 다음과 같습니다.</p>
+                    <p>가. 수집하는 개인정보의 항목<br>
+                        이벤트, 경품제공 등을 위해 성명 및 연락처, 주소, 이메일 정보 등 개인정보를 수집합니다.
+                    </p>
+                    <p>나. 개인정보의 수집 및 이용목적<br>
+                        각 개인정보별 수집 및 이용 목적은 다음과 같으며, 다른 목적으로 노출 및 재사용되지 않습니다.<br>
+                        - 성명, 아이디(ID) : 서비스이용에 따른 본인식별, 연령제한 서비스의 제공.<br>
+                        - 주소, 연락처 : 경품제공 목적으로 활용.<br>
+                        - 이메일 : 브랜드 관련 정보 제공 목적으로 추후 활용
+                    </p>
+                    <p>제 2조. 개인정보의 보유 및 파기 절차</p>
+                    <p>가. 개인정보의 보유 및 이용기간<br>
+                        이용자의 개인정보는 원칙적으로 개인정보의 수집 및 이용목적이 달성되면 파기됩니다.</p>
+                    <p>나. 개인정보 파기 절차 및 방법<br>
+                        이용자의 개인정보는 개인정보의 수집 및 이용목적이 달성되면 지체 없이 파기합니다. 
+회사는 목적이 달성된 후 이용자의 개인정보를 별도의 DB로 옮겨 내부 방침 및 기타 관련 법령에 의한 정보보호 사유에 따라 일정 기간 저장된 후 파기됩니다. 
+별도 DB로 옮겨진 개인정보는 법률에 의한 경우가 아니고서는 보유된 이외의 다른 목적으로 이용되지 않습니다.
+                    </p>
+                    <p>제 3조. 개인정보 제공 및 공유</p>
+                    <p>이용자의 개인정보를 "제 2조. 개인정보의 보유 및 파기 절차"에서 고지한 범위를 넘어서 이용하지 않으며, 
+이용자의 사전 동의 없이는 위 범위를 초과하여 이용하거나 타인에게 제공하지 않습니다.<br>
+                        다만, 다음의 경우에는 예외적으로 이용자의 개인정보를 제공할 수 있습니다.<br>
+                        - 이용자가 사전에 개인정보 제공에 동의한 경우<br>
+                        - 법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 관련기관의 요구가 있는 경우
+                    </p>
+				</div>
+			</div>
+			<div class="pop-footer">
+				<div class="btn-pop btn-close btn-br">
+					<a href="#;">닫기</a>
+				</div>
+			</div>
+		</div>	 
+		<!--// 개인정보 취급방법 안내 -->
+	</div>
+</body>
+</html>
