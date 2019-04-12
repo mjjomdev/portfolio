@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<title>Contact | portfolio of web publisher Cho Minji</title>		 
+<link rel="icon" href="../favicon.png" />
+<link href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+<link href="/resources/css/reset.css" rel="stylesheet">
+<link href="/resources/css/common.css" rel="stylesheet">
+<link href="/resources/css/contact.css" rel="stylesheet">	
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="/resources/js/loading.js"></script>
+</head>
+
+<body>
+	<header></header>
+    <div id="contWrap">
+        <div class="cont-box-1200">
+            <p class="guide">If you have any questions<br>or like to collaborate,<br>please send me e-mail.</p>
+            <div class="form-area">
+                <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+                <script type="text/javascript">
+                    function ValidateForm(frm) {
+                    if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+                    if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+                    if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+                    if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+                    return true; }
+                </script>
+                <table cellpadding="8" cellspacing="0">
+                    <tr>
+                        <td>
+                            <label for="Name">Name</label>
+                        </td>
+                        <td>
+                            <input name="Name" type="text" maxlength="60" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="PhoneNumber">Phone number</label>
+                        </td>
+                        <td>
+                            <input name="PhoneNumber" type="text" maxlength="43" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="FromEmailAddress">Email address</label>
+                        </td>
+                        <td>
+                            <input name="FromEmailAddress" type="text" maxlength="90" />
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            <label for="Comments">Comments</label>
+                        </td>
+                        <td>
+                            <textarea name="Comments" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr class="last">
+                        <td colspan="2">
+                            <input name="skip_Submit" type="submit" value="Send"/>
+                            <script src="https://www.100forms.com/js/FORMKEY:MR765PFLW53L/SEND:mjjom.dev@gmail.com" type="text/javascript"></script>
+                        </td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+    	</div>
+    </div>
+    <footer>
+    	<div class="cont-box-1200">
+    		<a class="f-logo"><img src="/resources/img/common/f-logo.png" alt=""></a>
+            <p>&copy; Minji Cho</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/*공통영역*/
+body{ font-family: Bebas,arial,helvetica; color: #333; color: rgba(0,0,0,.7)}
+h1,h2{font-size: 6em; line-height: 1.3em}
+p{	font-size: 3em}
+
+@font-face{
+	font-family:Bebas;
+	src:url('../font/BebasNeue.eot');
+    src: url('../font/BebasNeue.woff') format('woff'), local('BebasNeue'), url('../font/BebasNeue.ttf') format('truetype');
+}
+
+.section{ text-align:center}	
+	.section .conleft, .conright{opacity:.8; text-align:center}
+	.section .conleft:hover, .conright:hover{opacity:1}
+		.section h2{ color:#fff}
+		.section p{ color:#eee; padding-top:20px}
+		.section .bar{display:block; width:80px; margin:0 auto}
+	
+	.section .conleft{ float:left; width:49.5%; height:100%; vertical-align:middle; margin-right:.5%; box-sizing:border-box;
+								border-top-left-radius:50px; border-bottom-left-radius:50px; border:5px solid #fff}
+	.section .conright{ float:right; width:49.5%; height:100%; vertical-align:middle; margin-left:.5%; box-sizing:border-box;
+								border-top-right-radius:50px; border-bottom-right-radius:50px; border:5px solid #fff}
+		
+.intro{ overflow:hidden; height:98%; padding:1%}
+.intro p{ margin: 0 auto; }
+
+/*상단 nav menu*/
+#menu{	position:fixed; top:0; left:0; height: 40px; z-index: 100;	width: 100%; padding: 0; margin:0;	font-size: 18px}
+#menu li { display:inline-block; margin: 10px 5px; color: #000; background:#fff;
+				background: rgba(255,255,255,.5); border-radius: 10px}
+#menu li.active{ background:#666;	background: rgba(0,0,0,.5); color: #fff}
+#menu li a{ color: #000}
+#menu li.active a:hover{ color: #000}
+#menu li:hover{ background: rgba(255,255,255,.8)}
+#menu li a,#menu li.active a{ padding: 8px 15px; display:block}
+#menu li.active a{ color: #fff}
+
+
+#section0{
+	background: #ffcccc; /* Old browsers */
+	background: linear-gradient(to bottom,  #ffcccc 0%,#9d9dcc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcccc', endColorstr='#9d9dcc',GradientType=0 ); /* IE6-9 */}
+	#section0 h1{ width:25%; min-width:400px; padding:60px 0; margin:0 auto; border:15px double #fff; color:#fff}
+
+#section1{ }
+	#section1 h2{ padding-top:60%} 
+	#section1 .conleft{ background:url(../images/arumjigi.png) center no-repeat}
+	#section1 .conright{ background:url(../images/soccerngolf.png) center no-repeat}	
+		#section1 .conleft p{color:#333}
+			#section1 .conleft p:hover{color:#fc3}
+			#section1 .conright p:hover{color:#c90}
+		#section1 .conleft .bar{border-top:10px solid #fc3}
+		#section1 .conright .bar{border-top:10px solid #c90}
+
+#section2{
+	background: #9d9dcc; /* Old browsers */
+	background: linear-gradient(to bottom,  #9d9dcc 0%,#b5cfe2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d9dcc', endColorstr='#b5cfe2',GradientType=0 ); /* IE6-9 */}	
+	#section2 h2{ padding-top:40%; color:#000000} 
+		#section2 .conright p{color:#222}
+	#section2 .conleft{ background:url(../images/mobile.png) center no-repeat}
+	#section2 .conright{ background:url(../images/media.png) center no-repeat}
+			#section2 .conleft p:hover{color:#fc0}
+			#section2 .conright p:hover{color:#000}
+		#section2 .conleft .bar{border-top:10px solid #fc0}
+		#section2 .conright .bar{border-top:10px solid #222} 
+						
+						
+#section3{ }
+	#section3 h2{ padding-top:10%} 
+	#section3 .conleft{ background:url(../images/wordpress.png) center no-repeat}	
+	#section3 .conright{ background:url(../images/paris.png) center no-repeat}	
+		#section3 .conleft p{color:#FFFFFF}
+		#section3 .conright p{color:#FFFFFF}
+			#section3 .conleft p:hover{color:#6ba2c6}
+			#section3 .conright p:hover{color:#eb4620}
+		#section3 .conleft .bar{border-top:10px solid #6ba2c6}
+		#section3 .conright .bar{border-top:10px solid #eb4620}				
+						
+						

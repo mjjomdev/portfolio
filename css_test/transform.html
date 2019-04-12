@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>transform</title>
+<style type="text/css">
+.box_test{width:90%;margin:50px 5%;overflow:hidden}
+.box_test a{display:block;-webkit-transition:transform 1s, opacity 1s;transition:transform 1s, opacity 1s}
+.box_test a:hover{-webkit-transform:rotateY(-20deg);transform:rotateY(-20deg)}
+.box_lt{width:50%;height:500px;float:left;padding:5%;box-sizing:border-box;border:3px solid transparent}
+.box_test a:hover .box_lt{border-color:#666;-webkit-transition:all 2s;transition:all 2s}
+.box_rt{width:50%;height:500px;float:right;padding:2%;box-sizing:border-box}
+.box_rt img{width:100%}
+</style>
+</head>
+
+<body>
+	<div class="box_test">
+    <a href="#">
+      <div class="box_lt">
+        <p style="color:#333;font-weight:bold;font-size:50px;">TEST Heading</p>
+        <p style="color:#999;font-size:14px;">Imagine a cultural channel that houses everything you'd want to know about art, music, style, photography, architecture, design, happenings, 
+        and storied places. Teller does just that, as a publication for the Journal Group. We designed the brand identity, built a site, and now run the editorial platform from top to bottom 
+        for the property group that counts The Bradbury, The Hollywood Roosevelt, and The Park Plaza among its holdings.
+        Imagine a cultural channel that houses everything you'd want to know about art, music, style, photography, architecture, design, happenings, 
+        and storied places. Teller does just that, as a publication for the Journal Group. We designed the brand identity, built a site, and now run the editorial platform from top to bottom 
+        for the property group that counts The Bradbury, The Hollywood Roosevelt, and The Park Plaza among its holdings.</p>
+      </div>
+      <div class="box_rt">
+        <img src="img/kanye-west-brings-out-travi-scott-and-rihanna-at-fyf-fest-2-1024x682.jpg" alt="" />
+      </div>
+		</a>
+  </div>
+</body>
+</html>
