@@ -1,0 +1,364 @@
+/* CSS Document */
+header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.view .kv{
+	width:100%;
+	height:620px;
+	position:relative
+}
+
+h2{
+	font-size:40px;
+	color:#222;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:50px
+}
+.link-area{
+	text-align:center;
+}
+.btn-link{
+	display:inline-block;
+	width:34px;
+	height:34px;
+	background:url(../img/work/view/btn-link.svg) 0 0 no-repeat;
+	background-size:100%;
+	margin-left:15px;
+	vertical-align:middle
+}
+.view .summary{
+	margin:100px auto
+}
+.summary table{
+	width:100%
+}
+.summary tr{
+	width:100%;
+	line-height:1.5;
+	font-size:14px
+}
+.summary th, .summary td{
+	padding:10px 2%
+}
+.summary th{
+	width:30%;
+	text-align:right;
+	padding-top:7px
+}
+.summary td{
+	width:70%
+}
+
+.view .imgs{
+	position:relative
+}
+.view .imgs img{
+	display:block
+}
+.view .imgs .cont-box-1400:after{
+	content:'';
+	display:block;
+	clear:both
+}
+
+/* samsunghealth */
+.view.shealth .kv{
+	background:url(../img/work/view/shealth/kv.jpg) center no-repeat
+}
+.view.shealth .imgs.mob{
+	background:#f2f2f2;
+	padding:140px 0
+}
+.view.shealth .imgs.mob img{
+	width:100%
+}
+.view.shealth .imgs.web{
+	background:#75b3303b;
+	padding-top:200px
+}
+.view.shealth .imgs.web .web2{
+	position:absolute;
+	right:0;
+	top:-200px
+}
+.view.shealth .imgs.web .web3{
+	position:absolute;
+	right:0;
+	bottom:0
+}
+
+/* ms */
+.view.ms .kv{
+	background:url(../img/work/view/ms/kv.jpg) center no-repeat
+}
+.view.ms .imgs.mob img{
+	width:100%
+}
+.view.ms .imgs.web{
+	background:#daecff;
+	padding-top:350px;
+	padding-bottom:100px;
+	margin-top:50px
+}
+.view.ms .imgs.web .web1{
+	position:absolute;
+	left:0;
+	top:-300px
+}
+.view.ms .imgs.web .web2{
+	position:absolute;
+	left:0;
+	bottom:-100px
+}
+.view.ms .imgs.web .web3{
+	float:right
+}
+
+/* hershey */
+.view.hershey .kv{
+	background:url(../img/work/view/hershey/kv.jpg) center no-repeat
+}
+.view.hershey .btn-link{
+	position:relative;
+	margin-left:70px;
+	margin-top:25px
+}
+.view.hershey .btn-link:before{
+	display:block;
+	position:absolute;
+	left:-160%;
+	bottom:5px;
+	font-size:18px;
+	font-family:'Oswald';
+	font-weight:normal;
+	color:#333;
+}
+.view.hershey .btn-link-kr:before{
+	content:'KOREA'
+}
+.view.hershey .btn-link-jp:before{
+	content:'JAPAN'
+}
+.view.hershey .imgs.web{
+	background:#e9e9e9;
+	overflow:hidden
+}
+.view.hershey .imgs.web img{
+	width:29.08%;
+	float:left
+}
+.view.hershey .imgs.web .web1{
+	width:13.5%;
+	margin-right:4.8%
+}
+.view.hershey .imgs.web .web2{
+	margin-right:4.8%
+}
+.view.hershey .imgs.web .web4{
+	width:13.5%;
+	float:right
+}
+
+/* hershey-promo */
+.view.hershey.promo .kv{
+	background:url(../img/work/view/hershey/promotion/kv.jpg) center no-repeat
+}
+.view.hershey.promo .btn-link{
+	margin-left:130px;
+}
+.view.hershey.promo .reeses:before{
+	left:-360%;
+	content:'Reeses Adventure'
+}
+.view.hershey.promo .goldbar:before{
+	left:-315%;
+	content:'GoldBar Launch'
+}
+
+/* sbvk */
+.view.sbvk .kv{
+	background:url(../img/work/view/sbvk/kv.jpg) center no-repeat
+}
+.view.sbvk .imgs.mac{
+	padding:100px 0;
+	border-top:50px solid #f0f0f0
+}
+.view.sbvk .imgs.mac img{
+	margin:0 auto
+}
+.view.sbvk .imgs.mob{
+	padding-top:120px;
+	background:#f3f3f3
+}
+.view.sbvk .imgs.web{
+	background:#ececec;
+	padding-top:150px
+}
+.view.sbvk .imgs.web .web1{
+	position:absolute;
+	left:0;
+	top:150px
+}
+.view.sbvk .imgs.web .web2{
+	position:absolute;
+	left:0;
+	bottom:0
+}
+.view.sbvk .imgs.web .web3{
+	float:right
+}
+
+/* elite */
+.view.elite .kv{
+	background:url(../img/work/view/elite/kv.jpg) center no-repeat
+}
+.view.elite .imgs.web{
+	background:#e9e9e9;
+	overflow:hidden
+}
+.view.elite .imgs.web img{
+	width:29.08%;
+	float:left
+}
+.view.elite .imgs.web .web1{
+	width:13.5%;
+	margin-right:4.8%
+}
+.view.elite .imgs.web .web2{
+	margin-right:4.8%
+}
+.view.elite .imgs.web .web4{
+	width:13.5%;
+	float:right
+}
+
+/* LC */
+.view.LC .kv{
+	background:url(../img/work/view/LCcampaign/kv.jpg) center no-repeat
+}
+.view.LC .imgs.mob{
+	background:#f2f2f2;
+	padding:140px 0
+}
+.view.LC .imgs.mob img{
+	width:100%
+}
+.view.LC .imgs.web{
+	background:#fff5e9;
+	padding-bottom:530px
+}
+.view.LC .imgs.web .web2{
+	position:absolute;
+	left:0;
+	bottom:-530px
+}
+.view.LC .imgs.web .web3{
+	position:absolute;
+	right:0;
+	bottom:-530px
+}
+
+/* cadot */
+.view.cadot .kv{
+	background:url(../img/work/view/autocadot/kv.jpg) center no-repeat
+}
+.view.cadot .imgs.web{
+	background:#f4f9ff;
+	overflow:hidden
+}
+.view.cadot .imgs.web img{
+	width:29.08%;
+	float:left
+}
+.view.cadot .imgs.web .web1{
+	width:13.5%;
+	margin-right:4.8%
+}
+.view.cadot .imgs.web .web2{
+	margin-right:4.8%
+}
+.view.cadot .imgs.web .web4{
+	width:13.5%;
+	float:right
+}
+
+/* moooi */
+.view.moooi .kv{
+	background:url(../img/work/view/moooi/kv.jpg) center no-repeat
+}
+.view.moooi .imgs.mob img{
+	width:100%
+}
+.view.moooi .imgs.web{
+	background:#fff5ef;
+	padding-top:380px
+}
+.view.moooi .imgs.web .web1{
+	position:absolute;
+	left:0;
+	top:-300px
+}
+.view.moooi .imgs.web .web2{
+	position:absolute;
+	left:0;
+	bottom:0
+}
+.view.moooi .imgs.web .web3{
+	float:right
+}
+
+/* arumjigi */
+.view.arumjigi .kv{
+	background:url(../img/work/view/arumjigi/kv.jpg) center no-repeat
+}
+.view.arumjigi .btn-link{
+	position:relative;
+	margin-left:50px;
+	margin-top:25px
+}
+.view.arumjigi .btn-link:before{
+	display:block;
+	position:absolute;
+	left:-120%;
+	bottom:5px;
+	font-size:18px;
+	font-family:'Oswald';
+	font-weight:normal;
+	color:#333;
+}
+.view.arumjigi .btn-link-web:before{
+	content:'WEB'
+}
+.view.arumjigi .btn-link-mob:before{
+	content:'MOB'
+}
+.view.arumjigi .imgs.mac{
+	padding:100px 0;
+	border-top:50px solid #f0f0f0;
+	background:#f2f2f2
+}
+.view.arumjigi .imgs.mac img{
+	margin:0 auto
+}
+.view.arumjigi .imgs.mob{
+	background:#f2f2f2;
+	padding:140px 0
+}
+.view.arumjigi .imgs.mob img{
+	width:100%
+}
+.view.arumjigi .imgs.web{
+	background:#ececec;
+	overflow:hidden
+}
+.view.arumjigi .imgs.web .web1{
+	float:left
+}
+.view.arumjigi .imgs.web .web2{
+	float:right
+}

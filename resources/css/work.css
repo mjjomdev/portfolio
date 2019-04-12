@@ -1,0 +1,79 @@
+/* CSS Document */
+
+.work-list{
+	margin:30px 0 100px;
+	position:relative
+}
+.work-list:after{
+	display:table;
+	content:'';
+	clear:both	
+}
+
+.box-line{
+	display:block;
+	display:none;
+	position:absolute;
+	width:42%;
+	margin-left:2.5%;
+	border:5px solid #fff66b;
+	z-index:1;
+	transition:all .6s ease-out
+}
+.work-list li{
+	margin:0 5.5% 60px 2.5%;
+	width:42%;
+	position:absolute;
+	opacity:0;
+}
+.work-list li:nth-child(2n){
+	left:inherit;
+	right:0;
+	margin-right:2.5%
+}
+.work-list li a{
+	display:block;
+	transition:all .5s ease-in-out;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:2
+}
+.work-list li:hover a{
+	background:rgba(255,255,255,.4)
+}
+.work-list li .img-area{
+	overflow:hidden
+}
+.work-list li img{
+	display:block;
+	width:100%;
+	transition:all 1s ease-in-out;
+}
+.work-list li:hover img{
+	transform:scale(1.05)
+}
+.tit{
+	font-size: 14px;
+	line-height:2;
+	text-align:right;
+    display: inline-block;
+	width:64%;
+    transform: rotate(-90deg) translateX(-50%);
+    position: absolute;
+    left:0;
+    top:-5%;
+    margin-left: -35%;
+	padding:2px 8px
+}
+.tit.rgt{
+	left:inherit;
+	right:0;
+	margin-left:0;
+	margin-right:-35%
+}
+.tit.bot{
+	text-align:left
+}

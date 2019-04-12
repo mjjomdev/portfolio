@@ -1,0 +1,51 @@
+/* CSS Document */
+.guide{
+	font-size:24px;
+	font-family:'Oswald';
+	line-height:1.5;
+	margin-top:80px;
+	width:40%;
+	text-align:right
+}
+.form-area{
+	margin-left:45%;
+	width:55%;
+	margin-top:40px;
+	margin-bottom:200px
+}
+table{
+	width:100%
+}
+table tr{
+	padding:5px 0
+}
+table td{
+	text-align:left;
+	padding:10px 0
+}
+table td:first-child{
+	width:25%
+}
+table td input, 
+table td textarea{
+	width:100%;
+	padding:10px
+}
+table td textarea{
+	resize:none
+}
+table td input[type=submit]{
+	background:#fff;
+	border:2px solid #222;
+	font-size: 16px;
+    padding: 10px 0;
+	transition:all .3s ease-out;
+	cursor:pointer
+}
+table td input[type=submit]:hover{
+	background:#222;
+	color:#fff
+}
+.last a{
+	display:none !important
+}
