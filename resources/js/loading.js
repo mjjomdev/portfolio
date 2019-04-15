@@ -1,5 +1,5 @@
 // JavaScript Document
 
 $(document).ready(function(){
-	 $("header").load("/tpls/header.html")
+	 $("header").load("/portfolio/tpls/header.html")
   });
